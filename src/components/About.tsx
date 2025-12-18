@@ -79,7 +79,7 @@ export default function About() {
                 bg-white
                 border-4 border-amber-400
                 shadow-xl
-                -mt-40
+                -mt-20
                 overflow-hidden
               "
             >

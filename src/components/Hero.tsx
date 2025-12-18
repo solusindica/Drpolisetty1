@@ -112,7 +112,7 @@ export default function Hero() {
               w-[230px] md:w-[280px] lg:w-[320px] 
               rounded-2xl
               bg-white
-              -mt--20
+              -mt--80
               border-4 border-amber-400
               shadow-xl
             "

@@ -2,53 +2,154 @@ import { Award, Trophy, Star, Crown } from 'lucide-react';
 
 export default function Awards() {
   const awards = [
-    {
+     {
       year: '2024',
       title: 'Peter Drucker Excellence Award',
-      organization: 'International Leadership Foundation',
+      organization: 'International Leadership Foundation, UK & India',
       icon: Crown,
     },
     {
       year: '2024',
-      title: 'Vice Chair - Precision Medicine',
-      organization: 'EICBI - Europe India Conference, Brussels',
+      title: 'Honorary Vice-Chair',
+      organization: 'Europe-India Centre for Business Industry, Brussels',
       icon: Trophy,
     },
     {
       year: '2024',
       title: 'Hind Ratan Award',
-      organization: 'Government of India Recognition',
+      organization: 'Government of India',
       icon: Star,
     },
     {
+      year: '2024',
+      title: 'Pradhana Mantri Atma Nirbhar Bharat Abhiyan Sangatan Award',
+      organization: 'Honourable Governor of Maharashtra',
+      icon: Award,
+    },
+    {
+      year: '2024',
+      title: 'Super Indians Gujarat Award',
+      organization: 'Chief Minister of Gujarat',
+      icon: Trophy,
+    },
+    // 2023
+    {
       year: '2023',
-      title: 'Pride of India Award',
-      organization: 'National Achievement Recognition',
+      title: 'Pride of India Award – Health Care',
+      organization: 'Goa, India',
       icon: Award,
     },
     {
       year: '2023',
       title: 'Nelson Mandela Leadership Award',
-      organization: 'Global Leadership Institute',
+      organization: 'University of Oxford, UK',
+      icon: Crown,
+    },
+    {
+      year: '2023',
+      title: 'Outstanding Achievement Award for Healthcare Excellence',
+      organization: 'Bangkok, Thailand',
+      icon: Trophy,
+    },
+    {
+      year: '2023',
+      title: 'Healthcare Leadership Achievers Award – Excellence in Ayurveda',
+      organization: 'New Delhi, India',
+      icon: Star,
+    },
+    {
+      year: '2023',
+      title: 'Global Indian of the Year & World’s Greatest Brands Award',
+      organization: 'On behalf of Sai Ganga Panakeia',
+      icon: Crown,
+    },
+    {
+      year: '2023',
+      title: 'Fastest Growing Indian Company Excellence Award',
+      organization: 'Dubai, UAE',
+      icon: Award,
+    },
+    {
+      year: '2023',
+      title: 'Special Award – India Start-Up Festival',
+      organization: 'Bengaluru, India',
+      icon: Trophy,
+    },
+    {
+      year: '2023',
+      title: 'Swasthya Award',
+      organization: 'Swasthya Global Ayush & Wellness Expo',
+      icon: Star,
+    },
+    // 2022
+    {
+      year: '2022',
+      title: 'Ayurveda Ratan Award',
+      organization: 'All-Party Parliamentary Group on Indian Traditional Sciences, UK',
+      icon: Trophy,
+    },
+    {
+      year: '2022',
+      title: 'Technology Excellence Award',
+      organization: 'TITA',
+      icon: Award,
+    },
+    {
+      year: '2022',
+      title: 'Vaidya Seva Ratna Award',
+      organization: 'National Ayurvedic Day, Hyderabad',
+      icon: Star,
+    },
+    {
+      year: '2022',
+      title: 'Best Integrated Medical Hospital Award',
+      organization: 'On behalf of Sai Ganga Panakeia, Telangana',
+      icon: Trophy,
+    },
+    {
+      year: '2022',
+      title: 'Dhanvantri Puraskar Award',
+      organization: 'National Ayurveda Day, India',
       icon: Crown,
     },
     {
       year: '2022',
-      title: 'Ayurveda Ratan Award',
-      organization: 'UK Parliament, London',
-      icon: Trophy,
+      title: 'Ayurveda Integrated Medicine Expert & Arogya Ratna',
+      organization: 'Public Health Care Council, India',
+      icon: Award,
     },
     {
-      year: '2021',
-      title: 'Lead India Award - Bharat Ratna',
-      organization: 'Presented by Dr. APJ Abdul Kalam',
+      year: '2022',
+      title: 'Ugadi Visishta Purushkar Award',
+      organization: 'Ravindra Bharati, Hyderabad',
       icon: Star,
     },
     {
-      year: '2020',
-      title: 'Healthcare Innovation Excellence',
-      organization: 'World Healthcare Congress',
-      icon: Award,
+      year: '2022',
+      title: 'Felicitation by Sanskrit Academy of Osmani University',
+      organization: 'For contributions to Ayurveda through Sanskrit',
+      icon: Trophy,
+    },
+    // 2021
+    {
+      year: '2021',
+      title: 'Vaidya Shiromani Award',
+      organization: 'National Doctor’s Day, Megacity Navakala Vedika',
+      icon: Star,
+    },
+    // 2019
+    {
+      year: '2019',
+      title: '9th Medgate India Award – Most Innovative Product',
+      organization: 'India',
+      icon: Trophy,
+    },
+    // 2013
+    {
+      year: '2013',
+      title: 'Lead India Award - Bharat Ratna',
+      organization: 'Presented by Dr. APJ Abdul Kalam',
+      icon: Star,
     },
   ];
 
