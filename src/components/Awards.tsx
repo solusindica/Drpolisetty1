@@ -154,22 +154,26 @@ export default function Awards() {
   ];
 
   return (
-    <section id="awards" className="relative py-32 bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-amber-500 rounded-full filter blur-[128px] animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-yellow-500 rounded-full filter blur-[128px] animate-pulse"></div>
-      </div>
+    <section
+  id="awards"
+  className="relative pt-12 pb-16 bg-gradient-to-b from-black via-gray-900 to-black overflow-hidden"
+>
+  <div className="absolute inset-0 opacity-10">
+    <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-amber-500 rounded-full filter blur-[128px] animate-pulse"></div>
+    <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-yellow-500 rounded-full filter blur-[128px] animate-pulse"></div>
+  </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="font-serif text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-amber-400 to-yellow-600 bg-clip-text text-transparent">
-            Global Recognition & Honors
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-yellow-600 mx-auto mb-8"></div>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Celebrated worldwide for pioneering contributions to medical science and healthcare innovation
-          </p>
-        </div>
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="font-serif text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-amber-400 to-yellow-600 bg-clip-text text-transparent">
+        Global Recognition & Honors
+      </h2>
+      <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-yellow-600 mx-auto mb-4"></div>
+      <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+        Celebrated worldwide for pioneering contributions to medical science and healthcare innovation
+      </p>
+    </div>
+
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {awards.map((award, index) => {
