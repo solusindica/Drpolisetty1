@@ -2,22 +2,22 @@ import { useState } from "react";
 
 export default function Gallery() {
   const galleryItems = [
-    { title: 'President of India Dr. APJ Abdul Kalam 2013 ', img: 'apj.png', category: 'Dr. Lead India Bharat Ratna' },
-    { title: 'With CM.Chandrababu', img: 'cm.chandrababu.png', category: 'Conferences' },
-    { title: 'The fastest growing Indian Company Excellence Award ', img: 'dubai.png', category: 'Award' },
-    { title: 'Docture-Poly™ Launch at Moscow', img: 'moscowdp.png', category: 'Innovation' },
-    { title: 'Global Indian of the Year Award for 2023 ', img: 'awardsdr.png', category: 'Awards' },
-    { title: '‘Peter Drucker Excellence Award’', img: 'atmanirbar.png', category: 'Award' },
-    { title: 'Dr Polisetty Receiving Pride of India 2023 Award ', img: 'goa_hc.png', category: 'Global Events' },
-    { title: 'Cremia Governer and Jan Geilis ', img: 'Cremia_gov.png', category: 'Canada' },
-    { title: 'Team with Ms. Lyubov Dukhanina', img: 'teamLD.png', category: 'Global Events' },
-    { title: 'PRISM honorable Deputy speaker of Russian Parliament', img: 'spe_R.png', category: 'PRISM' },
-    { title: 'Dr Mandeep Bhandari-Joint Secretary of Ministry of Health (Central)', img: 'PG.png', category: 'Global Events' },
-    { title: 'Experience of Cardiac Surgeon with Ancient Meedical Wisdom ', img: 'news1.png', category: 'Innovation' },
-    { title: 'Ayurvedic Drug for Heart Diseases', img: 'news2.png', category: 'Heart care' },
-    { title: 'About Ayurveda', img: 'news3.png', category: 'Ayurveda' },
-    { title: 'Docture Poly News and Ayurveda', img: 'news4.png', category: 'DocturePoly' },
-    { title: 'Docture-Poly News', img: 'news5.png', category: 'DocturePoly' },
+    { title: 'President of India Dr. APJ Abdul Kalam 2013 ', img: '/apj.png', category: 'Dr. Lead India Bharat Ratna' },
+    { title: 'With CM.Chandrababu', img: '/cm.chandrababu.png', category: 'Conferences' },
+    { title: 'The fastest growing Indian Company Excellence Award ', img: '/dubai.png', category: 'Award' },
+    { title: 'Docture-Poly™ Launch at Moscow', img: '/moscowdp.png', category: 'Innovation' },
+    { title: 'Global Indian of the Year Award for 2023 ', img: '/awardsdr.png', category: 'Awards' },
+    { title: '‘Peter Drucker Excellence Award’', img: '/atmanirbar.png', category: 'Award' },
+    { title: 'Dr Polisetty Receiving Pride of India 2023 Award ', img: '/goa_hc.png', category: 'Global Events' },
+    { title: 'Cremia Governer and Jan Geilis ', img: '/Cremia_gov.png', category: 'Canada' },
+    { title: 'Team with Ms. Lyubov Dukhanina', img: '/teamLD.png', category: 'Global Events' },
+    { title: 'PRISM honorable Deputy speaker of Russian Parliament', img: '/spe_R.png', category: 'PRISM' },
+    { title: 'Dr Mandeep Bhandari-Joint Secretary of Ministry of Health (Central)', img: '/PG.png', category: 'Global Events' },
+    { title: 'Experience of Cardiac Surgeon with Ancient Meedical Wisdom ', img: '/news1.png', category: 'Innovation' },
+    { title: 'Ayurvedic Drug for Heart Diseases', img: '/news2.png', category: 'Heart care' },
+    { title: 'About Ayurveda', img: '/news3.png', category: 'Ayurveda' },
+    { title: 'Docture Poly News and Ayurveda', img: '/news4.png', category: 'DocturePoly' },
+    { title: 'Docture-Poly News', img: '/news5.png', category: 'DocturePoly' },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

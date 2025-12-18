@@ -69,7 +69,7 @@ export default function Hero() {
           <div className="space-y-1 pt-0 text-gray-400 text-xs">
             <p>✨ Awarded by Dr APJ Abdul Kalam</p>
             <p>✨ Vice-Chair (Precision Medicine), EICBI Brussels 2024</p>
-            <p>✨ Creator of Docture-Poly™ World's First Clinical Decision making Agent and                  Non-Invasive OMICS Tracker</p>
+            <p>✨ Creator of Docture-Poly™ World's First Clinical Decision making Agent and Non-Invasive OMICS Tracker</p>
           </div>
 
           {/* Buttons */}
