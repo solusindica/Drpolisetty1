@@ -82,7 +82,7 @@ export default function About() {
 
             <div className="pt-5">
               <a
-                href="#innovation"
+                href="https://saigangapanakeia.in/home/docturepoly"
                 className="inline-block bg-gradient-to-r from-amber-500 to-yellow-600 text-black px-7 py-3 rounded-full text-sm font-semibold hover:shadow-2xl hover:shadow-amber-500/50 transition-all duration-300"
               >
                 Discover His Innovations

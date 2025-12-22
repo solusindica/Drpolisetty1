@@ -18,8 +18,8 @@ import RegenerativeMedicine from './pages/RegenerativeMedicine';
 import BiomedicalDeviceEngineering from './pages/BiomedicalDeviceEngineering';
 import AIDeepLearning from './pages/AIDeepLearning';
 import IntegrativeMedicine from './pages/IntegrativeMedicine';
-
-
+import Patents from './pages/Patents';
+import Publication from './pages/Publication';
 
 
 
@@ -82,8 +82,15 @@ function App() {
   path="/integrative-medicine"
   element={<IntegrativeMedicine />}
 />
-      
+         <Route
+  path="/patents"
+  element={<Patents />}
+/>
 
+      <Route
+  path="/publication"
+  element={<Publication />}
+/>
   </Routes>
 );
 

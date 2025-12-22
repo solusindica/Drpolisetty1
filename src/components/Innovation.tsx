@@ -27,7 +27,7 @@ export default function Innovation() {
   return (
     <section
       id="innovation"
-      className="relative py-10 bg-gradient-to-b from-black via-blue-950 to-black overflow-hidden"
+      className="relative py-20 bg-gradient-to-b from-black via-blue-950 to-black overflow-hidden"
     >
       {/* Glow Background */}
       <div className="absolute inset-0 opacity-20">
@@ -96,7 +96,7 @@ export default function Innovation() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#contact"
+                href="https://saigangapanakeia.in/home/docturepoly"
                 className="bg-gradient-to-r from-amber-500 to-yellow-600 text-black px-8 py-4 rounded-full font-semibold hover:shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 text-center"
               >
                 Meet Docture-Poly™
@@ -121,7 +121,7 @@ export default function Innovation() {
                 bg-white
                 border-4 border-amber-400
                 shadow-xl
-                -mt-28
+                -mt--20
                 overflow-hidden
               "
             >

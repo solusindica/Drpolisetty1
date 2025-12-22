@@ -1,6 +1,32 @@
 import { Play, Sparkles, ChevronDown } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+export default function Hero(): JSX.Element {
+  const navigate = useNavigate();
 
-export default function Hero() {
+  const scrollToAbout = () => {
+    const aboutSection = document.querySelector("#about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const goToPatents = () => {
+    navigate("/patents");
+  };
+
+   const goToPublication = () => {
+    navigate("/publication");
+  };
+
+  return (
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center bg-[#020617] text-white px-4 md:px-10 lg:px-16 py-14"
+    >
+      {/* YOUR EXISTING JSX CONTENT */}
+
+
+{/*export default function Hero() {
 
   const scrollToAbout = () => {
     const aboutSection = document.querySelector("#about");
@@ -13,7 +39,7 @@ export default function Hero() {
     <section
       id="hero"
       className="relative min-h-screen flex items-center bg-[#020617] text-white px-4 md:px-10 lg:px-16 py-14"
-    >
+    >*/}
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a1530] to-black opacity-90"></div>
 
@@ -48,16 +74,17 @@ export default function Hero() {
           </blockquote>
 
           {/* Stats Row */}
-          <div className="flex flex-wrap gap-3 pt-1">
-            <div className="bg-white/5 border border-amber-400/30 rounded-xl px-4 py-2">
+           <div className="flex flex-wrap gap-3 pt-1">
+          <button onClick={goToPatents} >   <div className="bg-white/5 border border-amber-400/30 rounded-xl px-4 py-2">
               <div className="text-xl font-bold text-amber-400">40+</div>
-              <div className="text-gray-400 text-[11px]">Patents</div>
-            </div>
+              
+           <div className="text-gray-400 text-[11px]">Patents</div>
+            </div></button>
 
-            <div className="bg-white/5 border border-amber-400/30 rounded-xl px-4 py-2">
+            <button onClick={goToPublication} ><div className="bg-white/5 border border-amber-400/30 rounded-xl px-4 py-2">
               <div className="text-xl font-bold text-amber-400">60+</div>
-              <div className="text-gray-400 text-[11px]">Publications</div>
-            </div>
+                <div className="text-gray-400 text-[11px]">Publications</div>
+            </div></button>
 
             <div className="bg-white/5 border border-amber-400/30 rounded-xl px-4 py-2">
               <div className="text-xl font-bold text-amber-400">30+</div>
@@ -80,13 +107,17 @@ export default function Hero() {
             >
               Explore His Journey
             </a>
-            <a
-              href="#publications"
-              className="border border-amber-500 text-amber-400 px-5 py-2.5 rounded-full text-sm font-medium hover:bg-amber-500 hover:text-black transition-all flex items-center gap-1.5"
-            >
-              <Play size={16} />
-              Meet Docture-Poly™
-            </a>
+   <a
+  href="https://saigangapanakeia.in/home/docturepoly"
+  className="border border-amber-500 text-amber-400 px-5 py-2.5 rounded-full text-sm font-medium
+             hover:bg-amber-500 hover:text-black transition-all
+             flex items-center gap-1.5"
+>
+  <Play size={16} />
+  Meet Docture-Poly™
+</a>
+
+
 
            
           </div>

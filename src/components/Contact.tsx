@@ -58,7 +58,7 @@ Preferred Date: ${formData.date}
 Preferred Time: ${formData.time}
 `;
 
-  window.location.href = `mailto:devi.d@sgprs.com?subject=VIP Appointment Request&body=${encodeURIComponent(
+  window.location.href = `mailto:drprs@sgprs.com?subject=VIP Appointment Request&body=${encodeURIComponent(
     mailBody
   )}`;
 
@@ -114,7 +114,7 @@ Preferred Time: ${formData.time}
               <div className="border-t border-gray-800 pt-6 mt-6">
                 <p className="text-gray-400 text-sm mb-4">Connect on Social Media</p>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
+                  <a href="https://in.linkedin.com/in/drprs" className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
                     <Linkedin size={24} className="text-white" />
                   </a>
                   <a href="#" className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
