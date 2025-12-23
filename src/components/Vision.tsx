@@ -102,9 +102,9 @@ export default function Vision(): JSX.Element {
   "
 >
 
- <div className="text-purple-400 text-6xl mb-6 font-serif leading-none">
-              “”
-            </div>
+ <a className="text-purple-400 text-6xl mb-6 font-serif leading-none">
+              “
+            </a>
 
             <blockquote className="font-serif text-2xl md:text-3xl text-white italic leading-relaxed space-y-6">
               <p>
@@ -135,7 +135,9 @@ export default function Vision(): JSX.Element {
 
               <p className="text-gray-300">
                 Honoring the wisdom of the past while embracing the innovations
-                of tomorrow.
+                of tomorrow. <a className="text-purple-400 text-6xl mb-6 font-serif leading-none">
+              ”
+            </a>
               </p>
             </blockquote>
 

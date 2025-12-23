@@ -37,7 +37,7 @@ export default function FounderOf() {
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-[#19B5D8] border border-[#19B5D8]/50 px-5 py-2 rounded-full
-              opacity-0 group-hover:opacity-100 transition-all duration-300
+             opacity-100 transition-all duration-300
               hover:bg-[#19B5D8] hover:text-black"
             >
               Explore Initiative →
@@ -63,38 +63,40 @@ export default function FounderOf() {
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-amber-400 border border-amber-400/50 px-5 py-2 rounded-full
-              opacity-0 group-hover:opacity-100 transition-all duration-300
+            opacity-100 transition-all duration-300
+
               hover:bg-amber-400 hover:text-black"
             >
               Explore Initiative →
             </a>
           </div>
 
-          {/* SGP Research */}
-          <div className="group relative bg-gradient-to-br from-gray-900 to-black 
-          border border-[#19B5D8]/30 rounded-3xl p-10
-          transition-all duration-500 hover:-translate-y-2
-          hover:shadow-[0_0_60px_rgba(25,181,216,0.45)]">
+       {/* SGP Research */}
+<div className="group relative bg-gradient-to-br from-gray-900 to-black 
+border border-[#C4B5FD]/30 rounded-3xl p-10
+transition-all duration-500 hover:-translate-y-2
+hover:shadow-[0_0_60px_rgba(196,181,253,0.45)]">
 
-            <img src="/SGP-Research-logo.png" className="h-16 w-auto mb-4 object-contain" />
+  <img src="/SGP-Research-logo.png" className="h-16 w-auto mb-4 object-contain" />
 
-            <h3 className="text-2xl font-bold text-white mb-4">SGP-Research</h3>
-            <p className="text-gray-300 mb-6">
-              Translational research bridging Ayurveda and modern medical science.
-            </p>
+  <h3 className="text-2xl font-bold text-white mb-4">SGP-Research</h3>
+  <p className="text-gray-300 mb-6">
+    Translational research bridging Ayurveda and modern medical science.
+  </p>
 
-            <a
-              href="https://saigangapanakeia.in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-sm font-medium
-              text-[#19B5D8] border border-[#19B5D8]/50 px-5 py-2 rounded-full
-              opacity-0 group-hover:opacity-100 transition-all duration-300
-              hover:bg-[#19B5D8] hover:text-black"
-            >
-              Explore Initiative →
-            </a>
-          </div>
+  <a
+    href="https://saigangapanakeia.in"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center text-sm font-medium
+    text-[#C4B5FD] border border-[#C4B5FD]/50 px-5 py-2 rounded-full
+    opacity-100 transition-all duration-300
+    hover:bg-[#C4B5FD] hover:text-black"
+  >
+    Explore Initiative →
+  </a>
+</div>
+
 
           {/* I-PRISM */}
           <div className="group relative bg-gradient-to-br from-gray-900 to-black 
@@ -106,7 +108,7 @@ export default function FounderOf() {
 
             <h3 className="text-2xl font-bold text-white mb-4">I-PRISM</h3>
             <p className="text-gray-300 mb-6">
-              Institutionalized Poly Scientific Ayurveda ecosystem.
+            In a world where quality healthcare is often a luxury and modern medicine, while beneficial, can bring a host of side effects and temporary relief, we stand at a crossroads and bringing in institutionalized Poly Scientific Ayurveda.
             </p>
 
             <a
@@ -115,38 +117,40 @@ export default function FounderOf() {
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-blue-400 border border-blue-400/50 px-5 py-2 rounded-full
-              opacity-0 group-hover:opacity-100 transition-all duration-300
+            opacity-100 transition-all duration-300
+
               hover:bg-blue-400 hover:text-black"
             >
               Explore Initiative →
             </a>
           </div>
 
-          {/* Novadigm */}
-          <div className="group relative bg-gradient-to-br from-gray-900 to-black 
-          border border-amber-500/30 rounded-3xl p-10
-          transition-all duration-500 hover:-translate-y-2
-          hover:shadow-[0_0_60px_rgba(255,191,36,0.35)]">
+  {/* Novadigm */}
+<div className="group relative bg-gradient-to-br from-gray-900 to-black 
+border border-[#86EFAC]/30 rounded-3xl p-10
+transition-all duration-500 hover:-translate-y-2
+hover:shadow-[0_0_60px_rgba(134,239,172,0.45)]">
 
-            <img src="/Novadigm-logo.png" className="h-16 w-auto mb-4 object-contain" />
+  <img src="/Novadigm-logo.png" className="h-16 w-auto mb-4 object-contain" />
 
-            <h3 className="text-2xl font-bold text-white mb-4">Novadigm</h3>
-            <p className="text-gray-300 mb-6">
-              Redefining chronic disease care using PSA protocols.
-            </p>
+ <br></br> <h3 className="text-2xl font-bold text-white mb-4">Novadigm</h3>
+  <p className="text-gray-300 mb-6">
+ Pioneering healthcare all-natural center dedicated to offering Poly Scientific Ayurveda (PRISM) treatments, redefining healthcare by merging ancient wisdom with modern innovation to cater the chronic diseases.
+  </p>
+<br></br>
+  <a
+    href="https://novadigm.health/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center text-sm font-medium
+    text-[#86EFAC] border border-[#86EFAC]/50 px-5 py-2 rounded-full
+    opacity-100 transition-all duration-300
+    hover:bg-[#86EFAC] hover:text-black"
+  >
+    Explore Initiative →
+  </a>
+</div>
 
-            <a
-              href="https://novadigm.health/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-sm font-medium
-              text-amber-400 border border-amber-400/50 px-5 py-2 rounded-full
-              opacity-0 group-hover:opacity-100 transition-all duration-300
-              hover:bg-amber-400 hover:text-black"
-            >
-              Explore Initiative →
-            </a>
-          </div>
 
           {/* Docture-Poly */}
           <div className="group relative bg-gradient-to-br from-gray-900 to-black 
@@ -158,7 +162,7 @@ export default function FounderOf() {
 
             <h3 className="text-2xl font-bold text-white mb-4">Docture-Poly</h3>
             <p className="text-gray-300 mb-6">
-              AI-powered IoT platform for metabolic fingerprinting.
+             Docture-Poly is a AI and ML based IoT device that effectively gives your VPK42Fingerprint, and offers personalized, smart, automated, and intelligent dietary, fitness, and herbal regimens; Docture-Poly also provides a non-invasive estimate of your blood biochemistry.
             </p>
 
             <a
@@ -167,7 +171,8 @@ export default function FounderOf() {
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-purple-400 border border-purple-400/50 px-5 py-2 rounded-full
-              opacity-0 group-hover:opacity-100 transition-all duration-300
+             opacity-100 transition-all duration-300
+
               hover:bg-purple-400 hover:text-black"
             >
               Explore Initiative →
