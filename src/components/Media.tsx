@@ -71,13 +71,12 @@ export default function Media() {
               <div className="border-l-4 border-amber-500 pl-6 py-4">
                 <p className="text-amber-400 font-semibold mb-2">Forbes Healthcare Innovation</p>
                 <p className="text-gray-300">
-                  "Dr. Polisetty's revolutionary Docture-Poly™ device is set to transform preventive medicine globally"
-                </p>
+                  “Dr. Ravishankar Polisetty shares transformative insights on Poly-Scientific Ayurveda and regenerative medicine, highlighting the integration of ancient Indian wisdom with modern science at a Sangam Talks lecture in New Delhi.”</p>
               </div>
               <div className="border-l-4 border-blue-500 pl-6 py-4">
-                <p className="text-blue-400 font-semibold mb-2">Nature Medicine Feature</p>
+                <p className="text-blue-400 font-semibold mb-2">I-PRISM</p>
                 <p className="text-gray-300">
-                  "Pioneering work in regenerative cardiology shows promise for post-MI recovery"
+                  " Dr. Ravi Shankar Polisetty shares his vision behind the I-PRISM Medicine Course, a groundbreaking academic initiative developed in collaboration with IIT Hyderabad."
                 </p>
               </div>
               <div className="border-l-4 border-purple-500 pl-6 py-4">
@@ -98,8 +97,8 @@ export default function Media() {
                     <Tv size={24} className="text-black" />
                   </div>
                   <div>
-                    <p className="text-white font-semibold mb-1">BBC World News - Health Innovation</p>
-                    <p className="text-gray-400 text-sm">Discussion on the future of predictive healthcare</p>
+                    <p className="text-white font-semibold mb-1">TV5 - Health Care</p>
+                    <p className="text-gray-400 text-sm">Discover how Artificial Intelligence (AI) is reshaping the future of medical care. </p>
                   </div>
                 </div>
               </div>
@@ -109,8 +108,8 @@ export default function Media() {
                     <Radio size={24} className="text-black" />
                   </div>
                   <div>
-                    <p className="text-white font-semibold mb-1">Scientific American Podcast</p>
-                    <p className="text-gray-400 text-sm">The convergence of AI and traditional medicine</p>
+                    <p className="text-white font-semibold mb-1">TV5 - Health Care</p>
+                    <p className="text-gray-400 text-sm">Explaining about the PRISM Treatment approach and its role in modern healthcare.</p>
                   </div>
                 </div>
               </div>

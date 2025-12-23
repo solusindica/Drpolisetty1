@@ -44,6 +44,7 @@ export default function Awards() {
       title: 'Nelson Mandela Leadership Award',
       organization: 'University of Oxford, UK',
       icon: Crown,
+      
     },
     {
       year: '2023',

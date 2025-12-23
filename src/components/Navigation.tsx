@@ -45,7 +45,7 @@ export default function Navigation({ scrolled }: NavigationProps) {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-300 hover:text-amber-400 transition-colors duration-300 text-[13px] tracking-wider"
+                className="text-gray-300 hover:text-amber-400 transition-colors duration-300 text-[15px] tracking-wider"
               >
                 {link.name}
               </a>

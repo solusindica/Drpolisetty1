@@ -31,14 +31,145 @@ export default function Publication(): JSX.Element {
       year: "Jun 2011",
     },
     {
-      authors: "Ravishankar Polisetty et al",
+      authors: "Abidov M., Polisetty R., Danilova I, et al",
+      title:
+        "Role of Immunomodulation, iNOS and NO during an Inflammatory Response in Cardiomyocytes",
+      journal: "Journal of Cardiac Failure, Vol 3",
+      year: "Sep 2010",
+    },
+    {
+      authors: "Abidov M., Polisetty R., Danilova I, et al",
+      title:
+        "The Understanding of Fundamentals of Cardiac Regeneration and Role of Immunomodulation – A Novel Approach in Treating Heart Diseases and Preventing Heart Failure",
+      journal: "Journal of Cardiac Failure, Vol 3",
+      year: "Sep 2010",
+    },
+    {
+      authors: "Polisetty R, Kamabarov S.",
+      title:
+        "Outcomes of patients during surgical management of Patients with Ischemic Mitral Regurgitation",
+      journal: "The Heart Surgery Forum, Vol 13, Suppl 2",
+      year: "Oct 2010",
+    },
+    {
+      authors: "Polisetty R et al",
+      title:
+        "The Understanding of Fundamentals of Cardiac Regeneration and Role of Immunomodulation: A Novel Approach in Treating Ischemic Heart Disease",
+      journal: "The Heart Surgery Forum, Vol 13, Suppl 2, P S125",
+      year: "Oct 23, 2010",
+    },
+    {
+      authors: "Polisetty R et al",
+      title:
+        "Morpho-Physiological Aspects of Bio-Prosthesis in Valvular Heart Disease: Applying the Experience to Improve Durability of Bio-Prosthesis",
+      journal: "The Heart Surgery Forum, Vol 13, Suppl 2, P S99–S100",
+      year: "Oct 22, 2010",
+    },
+    {
+      authors: "Polisetty R., Abidov M.",
+      title:
+        "Neuroprotective Effect of Brahmi in Patients Undergoing Coronary Artery Surgery with Cardiopulmonary Bypass",
+      journal: "Russian Journal of Circulation, Vol. 4, 85–87, P 22–24",
+      year: "Sep 2009",
+    },
+    {
+      authors: "Polisetty R., Kambarov S.",
+      title:
+        "Landmark on the Cardiac Images That Allow Us to Estimate the Extent of the Heart in Order to Build a 3D Model of the Failing Heart",
+      journal: "Intra-Faculty Report (Unpublished)",
+      year: "Dec 2009",
+    },
+    {
+      authors: "Polisetty R.",
+      title:
+        "Cardiac Surgical Site Infections at Bakoulev Scientific Center for Cardio-Vascular Surgery: A Case Control Study, Preventive Strategies and Follow-up",
+      journal: "The Russian Journal of Infection Control, Vol 4, 11–17",
+      year: "Jun 2009",
+    },
+    {
+      authors: "Polisetty R., Kambarov S.",
+      title:
+        "The Management of Temperature During Cardiopulmonary Bypass: Effect on Neuropsychological Outcome",
+      journal: "Annals of Cardiac Surgery (Russian), Vol. 10, 41–47",
+      year: "Jul 2009",
+    },
+    {
+      authors: "Muratov R, Polisetty R, Kambarov S",
+      title:
+        "Sutureless Aortic Valve Replacement with the Trilogy Aortic Valve System: Russian Experience",
+      journal: "Cardiology and Cardiac Surgery, Vol 2, Issue 4, 34–37",
+      year: "Jan 2008",
+    },
+    {
+      authors: "Polisetty R., Kambarov S.",
+      title:
+        "Bioglue-LAB Versus Suture Wound Repair in a Contaminated Wound Model",
+      journal: "Creative Cardiac Surgery, Vol. 12, No. 1, 69–72",
+      year: "Jul 2007",
+    },
+    {
+      authors: "Skopin, Mironenko V, Polisetty R et al",
+      title:
+        "Valvular Heart Diseases of Varied Etiology, Complicated by IHD",
+      journal: "Medical Faculty, Vol. 2, 12–17",
+      year: "Sep 2006",
+    },
+    {
+      authors: "Polisetty R.",
+      title:
+        "Left Main-Stem Coronary Artery Disease: Surgical versus Medical Management",
+      journal: "The Russian Journal of Creative Surgery, Vol. 7, No. 6, 71–73",
+      year: "Nov 2005",
+    },
+    {
+      authors: "Polisetty R.",
+      title:
+        "Ayurvedic Approach to Constitutional, Biochemical, Metaphysical and Metabolic Typing of Various Tissues in the Human Body",
+      journal: "Moscow, Russian Journal of Metabolism, Vol 4, Issue 6",
+      year: "Jun 2005",
+    },
+    {
+      authors: "Polisetty R., Abidov M, Pavlenko S.",
+      title:
+        "Role and Influence of Phthalazine Derivatives on the Postoperative Period in Patients After Undergoing Surgical Intervention After Perforation of Duodenal Ulcers",
+      journal: "Russian Journal of Annals of Surgery, Vol 2, 17–20",
+      year: "Apr 2005",
+    },
+    {
+      authors: "Polisetty R.",
+      title: "Effects of Arjuna Terminalia on the MCIP1 Gene",
+      journal: "Moscow, Journal of Future Genetics, Vol 1, Issue 2, 19–22",
+      year: "Feb 2005",
+    },
+    {
+      authors: "Polisetty R.",
+      title: "Effects of Smilax Glabra (Chopchini) on the Her2neu Gene",
+      journal: "Moscow, Journal of Future Genetics, Vol 1, Issue 11, 25–27",
+      year: "Nov 2004",
+    },
+    {
+      authors: "Ravishankar Polisetty, Nikolskiy Peter Vladislavovich",
+      title:
+        "Effect of Various Diets Prescribed in the Indian System of Medicine on the Resting Potential of Cells",
+      journal:
+        "Russian Journal of Physiology – Heart and Circulatory Physiology, 280: H2053–H2060, Vol. 280, Issue 5",
+      year: "Dec 2002",
+    },
+    {
+      authors: "Polisetty R.",
+      title: "Tachykinins - Kassinnin and TRH as Probable Antiepileptic Agents",
+      journal: "Newsletter of Moscow State University, Russian Federation",
+      year: "Mar 1994",
+    },
+    {
+      authors: "Ravishankar Polisetty, Teja Sree Bitla, Purna Divya Singanamala, Shaik Aminabee",
       title:
         "Limitations to Therapeutic Approaches to T2DM in Light of Different HbA1C Values Suggested by Different Scientific Associations: A Review",
       journal: "Research & Reviews: A Journal of Medicine, 13(2):13–26",
       year: "2023",
     },
     {
-      authors: "Ravishankar Polisetty et al",
+      authors: "Ravishankar Polisetty, Purna Divya Singanamala, Teja Sree Bitla",
       title: "Current Issues in Understanding of Diabetes",
       journal: "Research & Reviews: A Journal of Medicine, 13(2):1–12",
       year: "2023",
@@ -56,16 +187,44 @@ export default function Publication(): JSX.Element {
     {
       authors: "Polisetty R",
       title:
-        "Useful effects of Shankhpushpi on nervous tissue during avia-cosmic journeys in space medicine",
+        "Study of Various Anti-Anginals Available in the Russian Markets",
+      journal:
+        "12th All Russian Cardiology Conference, SCCVS of Bakulev, Moscow, Russian Federation",
+      year: "May 2006",
+    },
+    {
+      authors: "Polisetty R",
+      title:
+        "Useful Effects of Shankhpushpi on Nervous Tissue During Avia-Cosmic Journeys in Space Medicine",
       journal: "SCCVS of Bakulev, Moscow, Russian Federation",
       year: "Jul 2006",
     },
     {
-      authors: "Polisetty R, Lud N",
+      authors: "Polisetty R",
+      title: "Shilajit, a Neuro Protector",
+      journal: "SCCVS of Bakulev, Moscow, Russian Federation",
+      year: "Sep 2005",
+    },
+    {
+      authors:
+        "Vladimir Ivanovich Onopriev, Vladimir Moiseevich Durleshter, Vadim Valerevich Ryabchun, Polisetty R",
       title:
-        "Lipid disorders in post-terminal ileiectomy patients",
+        "Comparative Pre- and Postoperative Results Analysis of Functional State of the Esophagus Assessment in Patients with Various Stages of Achalasia",
+      journal:
+        "Russian Center of Functional Surgical Gastroenterology, Krasnodar, Russian Federation",
+      year: "Sep 2004",
+    },
+    {
+      authors: "Polisetty R, Lud N",
+      title: "Lipid Disorders in Post-Terminal Ileiectomy Patients",
       journal: "International Conference, Frankfurt-am-Main, Germany",
       year: "1995",
+    },
+    {
+      authors: "Polisetty R",
+      title: "Correlation of Human Anatomy with Ayurvedic Anatomy",
+      journal: "International Students’ Conference, Minsk, Belarus",
+      year: "1991",
     },
   ];
 
