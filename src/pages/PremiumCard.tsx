@@ -150,92 +150,110 @@ export default function PremiumCard() {
 
         {/* ===== VIP FORM MODAL ===== */}
         {showForm && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
-            <div className="bg-gray-900 rounded-3xl p-10 max-w-lg w-full relative">
-              <button
-                onClick={() => setShowForm(false)}
-                className="absolute top-4 right-4 text-white text-xl font-bold"
-              >
-                ×
-              </button>
-              <h3 className="text-2xl font-bold text-amber-400 mb-6 text-center">
-                VIP Consultation Form
-              </h3>
-              <form className="space-y-4 text-white">
-                <div>
-                  <label className="block mb-1">Full Name</label>
-                  <input
-                    type="text"
-                    className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-                    placeholder="Your Name"
-                  />
-                </div>
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4">
+    <div className="bg-gray-900 rounded-3xl p-8 max-w-lg w-full relative max-h-[90vh] overflow-y-auto">
+      
+      {/* CLOSE BUTTON */}
+      <button
+        onClick={() => setShowForm(false)}
+        className="absolute top-4 right-4 text-white text-2xl font-bold hover:text-amber-400"
+      >
+        ×
+      </button>
 
-                <div>
-                  <label className="block mb-1">Email</label>
-                  <input
-                    type="email"
-                    className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-                    placeholder="you@example.com"
-                  />
-                </div>
+      <h3 className="text-2xl font-bold text-amber-400 mb-6 text-center">
+        VIP Consultation Form
+      </h3>
 
-                <div>
-                  <label className="block mb-1">Phone</label>
-                  <input
-                    type="tel"
-                    className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-                    placeholder="+91 1234567890"
-                  />
-                </div>
+      <form
+        className="space-y-4 text-white"
+        onSubmit={(e) => {
+          e.preventDefault();
+          alert("Form submitted successfully");
+        }}
+      >
+        <div>
+          <label className="block mb-1">Full Name</label>
+          <input
+            type="text"
+            required
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+            placeholder="Your Name"
+          />
+        </div>
 
-                {/* ========== NEW FIELDS ========== */}
-                <div>
-                  <label className="block mb-1">Gender</label>
-                  <select className="w-full p-2 rounded bg-gray-800 border border-gray-700">
-                    <option value="">Select Gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
+        <div>
+          <label className="block mb-1">Email</label>
+          <input
+            type="email"
+            required
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+            placeholder="you@example.com"
+          />
+        </div>
 
-                <div>
-                  <label className="block mb-1">Date of Birth</label>
-                  <input
-                    type="date"
-                    className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-                  />
-                </div>
+        <div>
+          <label className="block mb-1">Phone</label>
+          <input
+            type="tel"
+            required
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+            placeholder="+91 1234567890"
+          />
+        </div>
 
-                <div>
-                  <label className="block mb-1">Disease / Health Concern</label>
-                  <textarea
-                    className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-                    rows={3}
-                    placeholder="Describe your health concerns or diseases"
-                  />
-                </div>
+        <div>
+          <label className="block mb-1">Gender</label>
+          <select
+            required
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+          >
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </div>
 
-                <div>
-                  <label className="block mb-1">Message</label>
-                  <textarea
-                    className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-                    rows={4}
-                    placeholder="Your additional requirements or message"
-                  />
-                </div>
+        <div>
+          <label className="block mb-1">Date of Birth</label>
+          <input
+            type="date"
+            required
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+          />
+        </div>
 
-                <button
-                  type="submit"
-                  className="w-full py-3 bg-amber-500 text-black rounded-full font-semibold hover:bg-amber-400 transition"
-                >
-                  Submit
-                </button>
-              </form>
-            </div>
-          </div>
-        )}
+        <div>
+          <label className="block mb-1">Disease / Health Concern</label>
+          <textarea
+            required
+            rows={3}
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+            placeholder="Describe your health concerns"
+          />
+        </div>
+
+        <div>
+          <label className="block mb-1">Message</label>
+          <textarea
+            rows={4}
+            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
+            placeholder="Additional details (optional)"
+          />
+        </div>
+
+        {/* ✅ SUBMIT BUTTON — NOW ALWAYS VISIBLE */}
+        <button
+          type="submit"
+          className="w-full py-3 bg-gradient-to-r from-amber-400 to-yellow-500 text-black rounded-full font-semibold tracking-wide hover:scale-[1.03] transition duration-300 shadow-[0_15px_40px_rgba(255,193,7,0.4)]"
+        >
+          Submit VIP Request
+        </button>
+      </form>
+    </div>
+  </div>
+)}
 
         {/* ===== SAFETY FOOTER ===== */}
         <p className="text-center text-gray-500 text-sm max-w-3xl mx-auto pt-10">
