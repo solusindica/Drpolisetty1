@@ -62,17 +62,18 @@ export default function Hero() {
               <span className="text-amber-400">Polisetty</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-300 font-medium">
+            <p className="text-lg md:text-xl text-gray-300 font-medium -mt-6">
               Visionary Surgeon | Scientific Innovator | Healthcare Futurist
             </p>
 
-            <blockquote className="italic text-base md:text-lg text-gray-400 border-l-4 border-amber-400 pl-5 py-2 max-w-2xl leading-relaxed">
+            <blockquote className="italic text-base md:text-lg text-gray-400 border-l-4 border-amber-400 pl-4 py-1 max-w-2xl leading-snug">
+
               Transforming human health by uniting Ancient Wisdom & Modern Science
               into a future where disease can be predicted, prevented, and reversed.
             </blockquote>
 
 
-           <div className="flex flex-wrap gap-4 pt-2">
+           <div className="flex flex-wrap gap-4 pt-0">
               <div  onClick={() => navigate("/patents")} className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40  rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300 cursor-pointer">
                 <div className="text-3xl md:text-4xl font-bold text-amber-400">40+</div>
                 <div className="text-gray-300 text-sm font-medium mt-1">Patents</div>
@@ -91,7 +92,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="space-y-2.5 pt-2 text-gray-300 text-sm md:text-base">
+            <div className="space-y-0.5 pt-0 text-gray-300 text-sm md:text-base">
               <div className="flex items-start gap-2">
                 <span className="text-amber-400 mt-0.5">✦</span>
                 <p>Awarded by Dr APJ Abdul Kalam</p>
@@ -106,7 +107,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-wrap gap-4 pt-1">
               <a
                 href="#about"
                 className="bg-amber-500 text-black px-6 py-3 rounded-full text-base font-bold hover:bg-amber-400 transition-all shadow-lg shadow-amber-500/30 hover:shadow-xl hover:shadow-amber-500/40"
