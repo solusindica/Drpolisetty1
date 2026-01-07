@@ -45,8 +45,6 @@ export default function FounderOf() {
 
             <a
               href="https://saigangapanakeia.in"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-[#19B5D8] border border-[#19B5D8]/50 px-5 py-2 rounded-full
              opacity-100 transition-all duration-300
@@ -84,8 +82,6 @@ export default function FounderOf() {
 
             <a
               href="https://novadigm.tech/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-amber-400 border border-amber-400/50 px-5 py-2 rounded-full
             opacity-100 transition-all duration-300
@@ -122,8 +118,6 @@ hover:shadow-[0_0_60px_rgba(196,181,253,0.45)]">
 
   <a
     href="https://novadigmresearch.com/"
-    target="_blank"
-    rel="noopener noreferrer"
     className="inline-flex items-center text-sm font-medium
     text-[#C4B5FD] border border-[#C4B5FD]/50 px-5 py-2 rounded-full
     opacity-100 transition-all duration-300
@@ -150,8 +144,6 @@ hover:shadow-[0_0_60px_rgba(196,181,253,0.45)]">
 
             <a
               href="https://i-prism.in/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-blue-400 border border-blue-400/50 px-5 py-2 rounded-full
             opacity-100 transition-all duration-300
@@ -178,8 +170,6 @@ hover:shadow-[0_0_60px_rgba(134,239,172,0.45)]">
 <br></br>
   <a
     href="https://novadigm.health/"
-    target="_blank"
-    rel="noopener noreferrer"
     className="inline-flex items-center text-sm font-medium
     text-[#86EFAC] border border-[#86EFAC]/50 px-5 py-2 rounded-full
     opacity-100 transition-all duration-300
@@ -211,8 +201,6 @@ hover:shadow-[0_0_60px_rgba(134,239,172,0.45)]">
 
             <a
               href="https://docture-poly.com/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
               text-purple-400 border border-purple-400/50 px-5 py-2 rounded-full
              opacity-100 transition-all duration-300
