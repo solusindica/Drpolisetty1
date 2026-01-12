@@ -122,7 +122,7 @@ export default function Hero() {
                 className="border-2 border-amber-500 text-amber-400 px-6 py-3 rounded-full text-base font-bold hover:bg-amber-500 hover:text-black transition-all flex items-center gap-2 shadow-lg shadow-amber-500/20 hover:shadow-xl hover:shadow-amber-500/30"
               >
                 <Play size={18} />
-                Meet Docture-Poly™
+                Explore Docture-Poly™
               </a>
             </div>
           </div>

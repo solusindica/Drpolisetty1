@@ -53,7 +53,7 @@ export default function Experience() {
       organization: 'Sai Ganga Panakeia Ltd & Global CROs',
       location: 'India • Canada',
       description:
-        'Founder & CEO of Sai Ganga Panakeia, Director R&D in Canada, artificial heart valve innovation, PARP & P2X4 research, and Visiting Cardiac Surgeon at Narayana Health.',
+        'Founder & CEO of Sai Ganga Panakeia, Director R&D in Canada, artificial heart valve innovation, PARP & P2X4 research,got Lead India Award - Bharat Ratna presented by APJ Abdul Kalam and Visiting Cardiac Surgeon at Narayana Health.',
       icon: Briefcase,
     },
     {

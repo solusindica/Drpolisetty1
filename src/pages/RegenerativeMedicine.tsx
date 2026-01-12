@@ -1,4 +1,4 @@
-import { useEffect, ReactNode } from "react";
+import { useEffect, ReactNode, useState } from "react";
 
 /* ================= PREMIUM GLASS CARD ================= */
 function PremiumCard({
@@ -28,8 +28,95 @@ function PremiumCard({
   );
 }
 
+function DemoRequestModal({ open, onClose }: { open: boolean; onClose: () => void }) {
+  if (!open) return null;
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm px-4">
+      <div className="relative max-w-2xl w-full rounded-3xl p-10
+                      bg-gradient-to-br from-blue-900/40 to-blue-800/30
+                      backdrop-blur-xl border border-blue-400/30
+                      shadow-[0_40px_120px_rgba(0,0,0,0.8)]">
+
+        {/* Close */}
+        <button
+          onClick={onClose}
+          className="absolute top-5 right-5 text-gray-300 hover:text-amber-400 text-xl"
+        >
+          ✕
+        </button>
+
+        <h3 className="text-2xl font-semibold text-white mb-8">
+          Initiate Inquiry
+        </h3>
+
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <input
+            className="premium-input bg-white text-black"
+            placeholder="Full Name"
+            required
+          />
+          <select
+            required
+            className="premium-input bg-white text-black"
+          >
+            <option value="" disabled selected className="text-gray-500">
+              Select Gender
+            </option>
+            <option className="bg-white text-black">Male</option>
+            <option className="bg-white text-black">Female</option>
+            <option className="bg-white text-black">Other</option>
+          </select>
+
+          <input
+            className="premium-input bg-white text-black"
+            placeholder="Phone Number"
+            required
+          />
+          <input
+            className="premium-input bg-white text-black"
+            placeholder="Email Address"
+            required
+          />
+
+          <input
+            className="premium-input bg-white text-black"
+            placeholder="Institution / Organization"
+          />
+          <input
+            className="premium-input bg-white text-black"
+            placeholder="Designation"
+          />
+
+          {/* Remarks */}
+          <div className="md:col-span-2">
+            <textarea
+              className="premium-input resize-none h-28 w-full bg-white text-black"
+              placeholder="Remarks / Brief Description of Your Inquiry"
+            />
+          </div>
+
+          <div className="md:col-span-2 pt-4">
+            <button
+              type="submit"
+              className="w-full px-10 py-4 rounded-full
+                         bg-gradient-to-r from-amber-400 to-yellow-500
+                         text-black font-semibold tracking-wide
+                         hover:scale-[1.05] transition duration-300
+                         shadow-[0_20px_60px_rgba(255,193,7,0.4)]"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
+
 /* ================= MAIN PAGE ================= */
 export default function RegenerativeMedicine() {
+    const [showForm, setShowForm] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -108,11 +195,11 @@ export default function RegenerativeMedicine() {
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     {[
-      { organ: "Heart", desc: "Post-thermocellular injury regeneration models demonstrating myocardial tissue recovery." },
-      { organ: "Kidney", desc: "Partial nephrectomy models (no regeneration observed following total nephrectomy)." },
-      { organ: "Liver", desc: "Subtotal hepatectomy models validating hepatic structural restoration." },
-      { organ: "Pancreas", desc: "Subtotal pancreatectomy models assessing endocrine and exocrine regeneration." },
-      { organ: "Brain", desc: "Hypoxic-ischemic injury models evaluating neural tissue recovery." },
+      { organ: "Heart", desc: "In experimental rat models of post-myocardial infarction, Dr. Polisetty demonstrated subtotal regeneration of cardiac tissue, including structural restoration, using his proprietary translational methodology." },
+      { organ: "Kidney", desc: "In partial nephrectomy animal models, renal tissue regeneration was successfully demonstrated, whereas no regeneration was observed following total nephrectomy—highlighting the biological limits and specificity of the regenerative process." },
+      { organ: "Liver", desc: "Using a clinically derived methodology, complete liver regeneration was demonstrated in subtotal hepatectomy models, with clear evidence of hepatic structural restoration." },
+      { organ: "Pancreas", desc: "In subtotal pancreatectomy animal models, total pancreatic regeneration was demonstrated, representing a first-of-its-kind achievement globally in experimental regenerative research." },
+      { organ: "Brain", desc: "In models of hypoxic-ischemic brain injury leading to coagulative necrosis, application of Dr. Polisetty’s proprietary mineral-based clinical methodology resulted in complete neuronal tissue regeneration, demonstrated for the first time in the world." },
     ].map((item, index) => (
       <PremiumCard key={index} title={item.organ}>
         {item.desc}
@@ -135,17 +222,27 @@ export default function RegenerativeMedicine() {
           converting regenerative science into operational medicine.
         </PremiumCard>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-6 pt-10">
-          <button className="px-12 py-4 rounded-full bg-gradient-to-r from-yellow-300 to-amber-400 text-black font-semibold tracking-wide hover:scale-105 transition shadow-[0_20px_60px_rgba(255,193,7,0.6)]">
-            Request Scientific Dossier
-          </button>
+              {/* ===== CTAs ===== */}
+<div className="flex flex-col sm:flex-row justify-center gap-6 pt-10">
+  <button
+    onClick={() => setShowForm(true)}
+    className="px-10 py-4 rounded-full bg-gradient-to-r from-amber-400 to-yellow-500 text-black font-semibold tracking-wide hover:scale-[1.05] transition duration-300 shadow-[0_20px_60px_rgba(255,193,7,0.4)]"
+  >
+     Request Scientific Dossier
+  </button>
 
-          <button className="px-12 py-4 rounded-full border border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black hover:scale-105 transition">
-            Institutional Collaboration
-          </button>
-        </div>
+  <button
+    onClick={() => setShowForm(true)}
+    className="px-10 py-4 rounded-full border border-amber-400/60 text-amber-400 hover:bg-amber-400 hover:text-black hover:scale-[1.05] transition duration-300"
+  >
+      Institutional Collaboration
+  </button>
+</div>
 
       </div>
+       <DemoRequestModal open={showForm} onClose={() => setShowForm(false)} />
     </section>
   );
 }
+
+ 

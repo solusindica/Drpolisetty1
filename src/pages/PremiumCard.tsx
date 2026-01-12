@@ -1,4 +1,6 @@
 import { useEffect, useState, ReactNode } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 /* ================= PREMIUM GLASS CARD ================= */
 function PremiumGlassCard({
@@ -24,10 +26,11 @@ function PremiumGlassCard({
   );
 }
 
+
 /* ================= PREMIUM CARD PAGE ================= */
 export default function PremiumCard() {
   const [showForm, setShowForm] = useState(false);
-
+ const navigate = useNavigate(); 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -71,8 +74,197 @@ export default function PremiumCard() {
         </svg>
       </div>
 
+
+      <br></br>
+      <br></br>
+{/* ===== CONTEXT HEADING ===== */}
+<div className="text-center space-y-4 max-w-4xl mx-auto">
+  <div className="h-1 w-20 bg-amber-400 mx-auto rounded" />
+  <h2 className="text-3xl font-serif text-white">
+    Important Context
+  </h2>
+  <p className="text-gray-400 text-base">
+    Please read carefully before reviewing the premium engagement details.
+  </p>
+</div>
+ <div className="max-w-6xl mx-auto -my-8">
+  <br></br>
+
+  <br></br>
+  <br></br>
+
+      {/* ===== PREFACE / CONTEXT ===== */}
+<PremiumGlassCard title="Before You Proceed">
+  <p className="italic text-gray-300">
+    Before proceeding to engage me personally I want you to read the following with empathy and
+    attention
+  </p>
+
+  <h4 className="text-xl font-semibold text-amber-300 pt-6">
+    Building a New Health Ecosystem for End-Stage Diseases
+  </h4>
+
+  <p>
+    I, Dr. Ravishankar Polisetty, along with my team, am engaged in building a comprehensive, future-
+    ready health ecosystem rooted in India’s ancient scientific knowledge systems, carefully translated
+    into modern clinical, digital, and data-driven frameworks. My purpose is clear and unwavering: to
+    save lives wherever possible, and where cure is not feasible, to meaningfully improve quality of
+    life for patients with end-stage diseases.
+  </p>
+
+  <p>
+    This work goes far beyond individual clinical consultations. It represents a long-term commitment to
+    building systems that can serve not only India, but the world.
+  </p>
+
+  <h4 className="text-xl font-semibold text-amber-300 pt-6">
+    Our Commitments
+  </h4>
+
+  <p>
+    Together with my colleagues and collaborators, I am deeply involved in:
+  </p>
+
+  <h5 className="text-lg font-semibold text-white pt-4">
+    Training the Next Generation of Doctors and Professionals
+  </h5>
+
+  <p>
+    I firmly believe that transforming healthcare requires transforming education first. To this end, I
+    have taken concrete institutional steps to ensure that the next generation is trained correctly, early,
+    and responsibly.
+  </p>
+
+  <p>
+    As part of this commitment, we have formally signed up with IIT Hyderabad to design and run
+    structured programs aimed at training the next generation of doctors, alternative practitioners,
+    CAM specialists, engineers, and life-sciences professionals. These programs are designed to bridge
+    the long-standing gap between ancient Indian medical knowledge and modern scientific and
+    technological frameworks.
+  </p>
+
+  <p>
+    Our focus is not merely on teaching Ayurveda or alternative medicine in isolation, but on
+    translational Ayurveda—expressing ancient insights in the language of biology, systems medicine,
+    mathematics, data science, and clinical outcomes. This ensures that future practitioners are not only
+    compassionate, but also scientifically grounded and globally relevant.
+  </p>
+
+  <h5 className="text-lg font-semibold text-white pt-4">
+    Running Certified Courses and Early Exposure for Young Minds
+  </h5>
+
+  <p>
+    In addition to professional and postgraduate training, I strongly believe that exposure must begin
+    early. Waiting until medical school is often too late to shape foundational thinking.
+  </p>
+
+  <p>
+    Under this banner, we are designing and planning certified introductory programs for high-school
+    students and pre-medical learners, enabling them to:
+  </p>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>Understand the principles of translational Ayurveda</li>
+    <li>Learn how ancient medical logic maps onto modern biology</li>
+    <li>Develop early familiarity with research thinking and scientific questioning</li>
+    <li>Appreciate integrative medicine as a legitimate, rigorous discipline</li>
+  </ul>
+
+  <p>
+    By introducing these concepts early, we aim to nurture a generation that does not see artificial
+    boundaries between modern medicine, Ayurveda, engineering, or data science—but instead sees
+    them as parts of a unified healthcare continuum.
+  </p>
+
+  <h5 className="text-lg font-semibold text-white pt-4">
+    Strengthening and Automating Primary and Secondary Healthcare
+  </h5>
+
+  <p>
+    For healthcare to be truly impactful, it must work at scale and at the grassroots.
+  </p>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>Enable early detection and continuous monitoring</li>
+    <li>Standardize care pathways using intelligent protocols</li>
+    <li>Seamlessly escalate patients from primary to secondary to tertiary care</li>
+    <li>Reduce dependency on late-stage interventions</li>
+  </ul>
+
+  <p>
+    Automation and protocolization at these levels are critical if end-stage disease burden is to be
+    reduced meaningfully and sustainably.
+  </p>
+
+  <h5 className="text-lg font-semibold text-white pt-4">
+    Advanced Medical Devices and Robotics Ecosystem
+  </h5>
+
+  <p>
+    Parallel to clinical and academic efforts, we are actively building an advanced medical-device
+    ecosystem.
+  </p>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>Objective and data-driven</li>
+    <li>Affordable and scalable</li>
+    <li>Deeply integrated with clinical decision systems</li>
+    <li>Capable of supporting personalized and precision medicine</li>
+  </ul>
+
+  <p>
+    Our goal is not to merely import or imitate existing technologies, but to design indigenous,
+    context-aware medical devices that align with India’s clinical realities while meeting global
+    standards.
+  </p>
+
+  <h5 className="text-lg font-semibold text-white pt-4">
+    Building an AI-Driven Healthcare System from First Principles
+  </h5>
+
+  <p>
+    Our AI journey is not an afterthought—it is built from first principles derived from translational
+    Ayurvedic research.
+  </p>
+
+  <p>
+    As part of this effort, I have personally conceptualized and written approximately 17 novel
+    machine-learning algorithms, specifically tailored for healthcare and end-stage disease
+    modeling.
+  </p>
+
+  <ul className="list-disc list-inside space-y-2">
+    <li>Capture longitudinal disease trajectories</li>
+    <li>Model complex homeostatic imbalances</li>
+    <li>Support predictive and preventive decision-making</li>
+    <li>Integrate clinical data with biological and behavioral signals</li>
+  </ul>
+
+  <p>
+    This layered approach places us well ahead of most existing global healthcare AI ecosystems.
+  </p>
+
+  <p>
+    Each of these initiatives is pioneering in nature and demands time, focus, intellectual depth, and
+    sustained personal involvement. My time, and the time of senior collaborators such as Docture Poly
+    is therefore both limited and extremely valuable.
+  </p>
+</PremiumGlassCard>
+</div>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<div className="text-center space-y-8 max-w-4xl mx-auto">
+  <div className="h-1 w-20 bg-amber-400 mx-auto rounded" />
+  <h2 className="text-3xl font-serif text-white">
+  Professional Engagement Fees
+  </h2>
+</div>
       {/* ================= CONTENT ================= */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 space-y-24">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 space-y-16">
         {/* ===== INVESTMENT ===== */}
         <PremiumGlassCard title="Monthly Investment">
           <p><strong>India:</strong> INR 15,00,000 / month</p>
@@ -137,123 +329,103 @@ export default function PremiumCard() {
           <p>The plan is reviewed and recalibrated each month based on progress.</p>
         </PremiumGlassCard>
 
-        {/* ===== CTAs ===== */}
-        <div className="flex flex-col sm:flex-row justify-center gap-6 pt-10">
-          <button
-            onClick={() => setShowForm(true)}
-            className="px-10 py-4 rounded-full bg-gradient-to-r from-amber-400 to-yellow-500 text-black font-semibold tracking-wide hover:scale-[1.05] transition duration-300 shadow-[0_20px_60px_rgba(255,193,7,0.4)]"
-          >
-            Request VIP Consultation
-          </button>
-         
-        </div>
+       {/* ===== CTAs ===== */}
+<div className="flex flex-col sm:flex-row justify-center gap-6 pt-10">
 
-        {/* ===== VIP FORM MODAL ===== */}
+  {/* EXISTING BUTTON */}
+  <button
+    onClick={() => setShowForm(true)}
+    className="px-10 py-4 rounded-full
+               bg-gradient-to-r from-amber-400 to-yellow-500
+               text-black font-semibold tracking-wide
+               hover:scale-[1.05] transition duration-300
+               shadow-[0_20px_60px_rgba(255,193,7,0.4)]"
+  >
+    Request VIP Consultation
+  </button>
+
+  {/* NEW BUTTON — OPENS PAC-P PAGE */}
+  <button
+    onClick={() => navigate("/advancedcareProgram")}
+    className="px-10 py-4 rounded-full
+               border border-amber-400/60
+               text-amber-400
+               hover:bg-amber-400
+               hover:text-black
+               hover:scale-[1.05]
+               transition duration-300"
+  >
+  Advanced care Program
+  </button>
+
+</div>
+
+
+        {/* ===== VIP FORM MODAL (GLASS STYLE) ===== */}
         {showForm && (
-  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4">
-    <div className="bg-gray-900 rounded-3xl p-8 max-w-lg w-full relative max-h-[90vh] overflow-y-auto">
-      
-      {/* CLOSE BUTTON */}
-      <button
-        onClick={() => setShowForm(false)}
-        className="absolute top-4 right-4 text-white text-2xl font-bold hover:text-amber-400"
-      >
-        ×
-      </button>
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4">
+            <div className="relative max-w-2xl w-full rounded-3xl p-10
+                            bg-gradient-to-br from-blue-900/40 to-blue-800/30
+                            backdrop-blur-xl border border-blue-400/30
+                            shadow-[0_40px_120px_rgba(0,0,0,0.8)] max-h-[90vh] overflow-y-auto">
+              
+              {/* Close Button */}
+              <button
+                onClick={() => setShowForm(false)}
+                className="absolute top-5 right-5 text-gray-300 hover:text-amber-400 text-xl"
+              >
+                ✕
+              </button>
 
-      <h3 className="text-2xl font-bold text-amber-400 mb-6 text-center">
-        VIP Consultation Form
-      </h3>
+              <h3 className="text-2xl font-semibold text-white mb-8 text-center">
+                VIP Consultation Form
+              </h3>
 
-      <form
-        className="space-y-4 text-white"
-        onSubmit={(e) => {
-          e.preventDefault();
-          alert("Form submitted successfully");
-        }}
-      >
-        <div>
-          <label className="block mb-1">Full Name</label>
-          <input
-            type="text"
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-            placeholder="Your Name"
-          />
-        </div>
+              <form className="grid grid-cols-1 md:grid-cols-2 gap-6" onSubmit={(e) => {
+                e.preventDefault();
+                alert("Form submitted successfully");
+                setShowForm(false);
+              }}>
+                <input className="premium-input bg-white text-black" placeholder="Full Name" required />
+                
+                <input type="email" className="premium-input bg-white text-black" placeholder="Email Address" required />
 
-        <div>
-          <label className="block mb-1">Email</label>
-          <input
-            type="email"
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-            placeholder="you@example.com"
-          />
-        </div>
+                <input type="tel" className="premium-input bg-white text-black" placeholder="Phone Number" required />
 
-        <div>
-          <label className="block mb-1">Phone</label>
-          <input
-            type="tel"
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-            placeholder="+91 1234567890"
-          />
-        </div>
+                <select className="premium-input bg-white text-black" required>
+                  <option value="" disabled selected>Select Gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Other</option>
+                </select>
 
-        <div>
-          <label className="block mb-1">Gender</label>
-          <select
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-          >
-            <option value="">Select Gender</option>
-            <option>Male</option>
-            <option>Female</option>
-            <option>Other</option>
-          </select>
-        </div>
+                <input type="date" className="premium-input bg-white text-black" placeholder="Date of Birth" required />
 
-        <div>
-          <label className="block mb-1">Date of Birth</label>
-          <input
-            type="date"
-            required
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-          />
-        </div>
+                <input className="premium-input bg-white text-black" placeholder="Disease / Health Concern" />
 
-        <div>
-          <label className="block mb-1">Disease / Health Concern</label>
-          <textarea
-            required
-            rows={3}
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-            placeholder="Describe your health concerns"
-          />
-        </div>
+                <div className="md:col-span-2">
+                  <textarea
+                    className="premium-input resize-none h-28 w-full bg-white text-black"
+                    placeholder="Message / Brief Description of Your Inquiry"
+                  />
+                </div>
 
-        <div>
-          <label className="block mb-1">Message</label>
-          <textarea
-            rows={4}
-            className="w-full p-2 rounded bg-gray-800 border border-gray-700"
-            placeholder="Additional details (optional)"
-          />
-        </div>
-
-        {/* ✅ SUBMIT BUTTON — NOW ALWAYS VISIBLE */}
-        <button
-          type="submit"
-          className="w-full py-3 bg-gradient-to-r from-amber-400 to-yellow-500 text-black rounded-full font-semibold tracking-wide hover:scale-[1.03] transition duration-300 shadow-[0_15px_40px_rgba(255,193,7,0.4)]"
-        >
-          Submit VIP Request
-        </button>
-      </form>
-    </div>
-  </div>
-)}
+                <div className="md:col-span-2 pt-4">
+                  <button
+                    type="submit"
+                    className="w-full px-10 py-4 rounded-full
+                               bg-gradient-to-r from-amber-400 to-yellow-500
+                               text-black font-semibold tracking-wide
+                               hover:scale-[1.05] transition duration-300
+                               shadow-[0_20px_60px_rgba(255,193,7,0.4)]"
+                  >
+                    Submit VIP Request
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
 
         {/* ===== SAFETY FOOTER ===== */}
         <p className="text-center text-gray-500 text-sm max-w-3xl mx-auto pt-10">

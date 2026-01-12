@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import {
   Mail,
   Linkedin,
-  Twitter,
+  Instagram,
   MapPin,
   Phone,
   Send,
@@ -118,12 +118,12 @@ export default function Contact() {
                   >
                     <Linkedin className="text-white" />
                   </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 bg-sky-500 rounded-xl flex items-center justify-center hover:scale-110 transition"
-                  >
-                    <Twitter className="text-white" />
-                  </a>
+                   <a
+  href="https://www.instagram.com/dr.ravishankar.polisetty.sgp/?hl=en"
+  className="w-12 h-12 bg-pink-500 rounded-xl flex items-center justify-center hover:scale-110 transition"
+>
+  <Instagram className="text-white" />
+</a>
                   <a
                     href="#"
                     className="w-12 h-12 bg-amber-500 rounded-xl flex items-center justify-center hover:scale-110 transition"

@@ -21,6 +21,7 @@ import IntegrativeMedicine from './pages/IntegrativeMedicine';
 import Patents from './pages/Patents';
 import Publication from './pages/Publication';
 import PremiumCard from './pages/PremiumCard.tsx';
+import AdvancedCareProgram from './pages/AdvancedCareProgram.tsx'
 
 
 
@@ -97,6 +98,11 @@ function App() {
   path="/premiumcard"
   element={<PremiumCard />}
 />
+<Route
+  path="/advancedcareProgram"
+  element={<AdvancedCareProgram />}
+/>
+
 
   </Routes>
 );

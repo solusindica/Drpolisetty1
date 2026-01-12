@@ -236,14 +236,14 @@ export default function Awards() {
           })}
         </div>
 
-        {/* Stats */}
+        {/* Stats
         <div className="bg-gradient-to-r from-amber-500/10 via-yellow-500/10 to-amber-500/10 border-2 border-amber-500/50 rounded-3xl p-12">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <Stat value="15+" label="International Awards" />
             <Stat value="50+" label="Keynote Speeches" />
             <Stat value="10+" label="Countries Honored" />
           </div>
-        </div>
+        </div> */}
 
         {/* Footer Highlight */}
         <div className="mt-16 bg-gradient-to-br from-gray-900 to-black border border-amber-500/30 rounded-3xl p-10 text-center">
@@ -262,7 +262,7 @@ export default function Awards() {
   );
 }
 
-/* ---------- Small Component ---------- */
+/* ---------- Small Component ----------
 function Stat({ value, label }: { value: string; label: string }) {
   return (
     <div>
@@ -274,4 +274,4 @@ function Stat({ value, label }: { value: string; label: string }) {
       </div>
     </div>
   );
-}
+} */

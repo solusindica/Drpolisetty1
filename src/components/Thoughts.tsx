@@ -100,7 +100,7 @@ const Thoughts = () => {
     context: "On Ethics and Excellence"
   },
   {
-    quote: "Ancient knowledge deserves inquiry, not dismissal; superstition and science are not the same.",
+    quote: "Ancient knowledge deserves Scientific inquiry, not blind dismissal and not blind acceptance.",
     context: "On Knowledge and Rationality"
   },
   {

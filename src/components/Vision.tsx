@@ -108,7 +108,7 @@ export default function Vision(): JSX.Element {
 
             <blockquote className="font-serif text-2xl md:text-3xl text-white italic leading-relaxed space-y-6">
               <p>
-                The future of medicine shall be guided by three core principles:
+                The future of medicine shall be guided by four core principles:
               </p>
 
               <p>
@@ -133,9 +133,16 @@ export default function Vision(): JSX.Element {
                 — AI, ML, IoT, and advanced clinical intelligence.
               </p>
 
+                 <p>
+                <span className="text-amber-400 font-semibold">
+                 Ancient meets Modern
+                </span>{" "}
+                 — Honoring the wisdom of the past while embracing the innovations
+                of tomorrow.
+              </p>
+
               <p className="text-gray-300">
-                Honoring the wisdom of the past while embracing the innovations
-                of tomorrow. <a className="text-purple-400 text-6xl mb-6 font-serif leading-none">
+                <a className="text-purple-400 text-6xl mb-6 font-serif leading-none">
               ”
             </a>
               </p>

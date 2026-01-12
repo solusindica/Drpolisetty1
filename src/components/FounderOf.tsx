@@ -56,56 +56,104 @@ export default function FounderOf() {
             </a>
           </div>
 
-          {/* SGP Manufacturing */}
-          <div className="group relative bg-gradient-to-br from-gray-900 to-black 
-          border border-amber-500/30 rounded-3xl p-10
+           {/* I-PRISM */}
+        <div className="group relative bg-gradient-to-br from-gray-900 to-black 
+          border border-purple-500/30 rounded-3xl p-10
           transition-all duration-500 hover:-translate-y-2
-          hover:shadow-[0_0_60px_rgba(255,191,36,0.35)]">
+          hover:shadow-[0_0_60px_rgba(168,85,247,0.35)]">
 
-            <img src="/SGP-Manufacturing-logo.png" className="h-16 w-auto mb-4 object-contain" />
+            <img src="/IPRISMlogo.png" className="h-20 w-auto mb-4 object-contain" />
 
-           <br></br>
-
-<h3 className="text-2xl font-bold text-white mb-4">SGP Precision Manufacturing</h3>
-
-<b>
-  <p className="mb-5 font-semibold bg-gradient-to-r from-yellow-400 via-orange-300 to-red-200 bg-clip-text text-transparent">
- 
-    “Building the Biological and Digital Infrastructure of Next-Generation Healthcare.”
-  </p>
-</b>
-
-<p className="text-gray-300 mb-6">
-  SGP Precision Manufacturing is the engineering backbone of the SGP / Novadigm ecosystem. We design and produce advanced herbal formulations, medical-grade IoT devices, and intelligent robotic systems that translate biological insight into scalable, clinically aligned solutions.
-</p>
-
-<br></br>
-
+            <h3 className="text-2xl font-bold text-white mb-4">I-PRISM</h3>
+              <b><p className="mb-5 font-semibold bg-gradient-to-r from-purple-400 via-pink-500 to-pink-400 bg-clip-text text-transparent">“An intelligent precision framework unifying data, biology, and personalized care.”</p></b>
+            <p className="text-gray-300 mb-6">
+           In a world where quality healthcare is often a luxury and modern medicine, while beneficial, frequently delivers temporary relief with side effects, we stand at a crossroads—advancing institutionalized Poly Scientific Ayurveda to enable safe, sustainable, and regenerative healing.      </p>
 
             <a
-              href="https://novadigm.tech/"
+              href="https://i-prism.in/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-sm font-medium
-              text-amber-400 border border-amber-400/50 px-5 py-2 rounded-full
-            opacity-100 transition-all duration-300
+            className="inline-flex items-center text-sm font-medium
+              text-purple-400 border border-purple-400/50 px-5 py-2 rounded-full
+             opacity-100 transition-all duration-300
 
-              hover:bg-amber-400 hover:text-black"
+              hover:bg-purple-400 hover:text-black"
             >
               Explore Initiative →
             </a>
           </div>
 
-       {/* SGP Research */}
+           {/* Novadigm */}
+<div className="group relative bg-gradient-to-br from-gray-900 to-black 
+border border-[#86EFAC]/30 rounded-3xl p-10
+transition-all duration-500 hover:-translate-y-2
+hover:shadow-[0_0_60px_rgba(134,239,172,0.45)]">
+
+  <img src="/Novadigm-logo.png" className="h-16 w-auto mb-4 object-contain" />
+
+ <br></br> <h3 className="text-2xl font-bold text-white mb-4">Novadigm</h3>
+ <b><p className="mb-5 font-semibold bg-gradient-to-r from-green-400 via-green-300 to-green-200 bg-clip-text text-transparent">“A new scientific paradigm shaping the future of integrated human health.”</p></b>
+  <p className="text-gray-300 mb-6">
+Novadigm is a pioneering all-natural integrative healthcare center offering Poly Scientific Ayurveda (PRISM) treatments—redefining chronic disease management through personalized, evidence-based care where ancient Ayurvedic wisdom meets modern medical science, powered by advanced diagnostics and AI-driven insights for a healthier tomorrow.  </p>
+<br></br>
+  <a
+    href="https://novadigm.health/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center text-sm font-medium
+    text-[#86EFAC] border border-[#86EFAC]/50 px-5 py-2 rounded-full
+    opacity-100 transition-all duration-300
+    hover:bg-[#86EFAC] hover:text-black"
+  >
+    Explore Initiative →
+  </a>
+</div>
+
+  
+
+          {/* Docture-Poly */}
+         <div className="group relative bg-gradient-to-br from-gray-900 to-black 
+          border border-blue-500/30 rounded-3xl p-10
+          transition-all duration-500 hover:-translate-y-2
+          hover:shadow-[0_0_60px_rgba(59,130,246,0.35)]">
+
+            <img src="/Docture-poly-logo.png" className="h-16 w-auto mb-4 object-contain" />
+<br></br>
+            <h3 className="text-2xl font-bold text-white mb-4">Docture-Poly</h3>
+             <b>
+  <p className="mb-5 font-semibold bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 bg-clip-text text-transparent">
+    “A multi-modal clinical device enabling intelligent, poly-system medical intervention.”
+  </p>
+</b>
+
+            <p className="text-gray-300 mb-6">
+        Docture-Poly™ is an AI- and ML-powered IoT health intelligence device that decodes the VPK-42 Fingerprint to assess inner health and functional balance. Its purpose is to deliver personalized, non-invasive, and preventive health insights by integrating sensor-based analytics with Poly Scientific Ayurvedic intelligence for smarter lifestyle and wellness decisions </p>
+<br></br>
+            <a
+              href="https://docture-poly.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+                className="inline-flex items-center text-sm font-medium
+              text-blue-400 border border-blue-400/50 px-5 py-2 rounded-full
+            opacity-100 transition-all duration-300
+
+              hover:bg-blue-400 hover:text-black" 
+            >
+              Explore Initiative →
+            </a>
+          </div>
+
+            {/* SGP Research */}
 <div className="group relative bg-gradient-to-br from-gray-900 to-black 
 border border-[#C4B5FD]/30 rounded-3xl p-10
 transition-all duration-500 hover:-translate-y-2
 hover:shadow-[0_0_60px_rgba(196,181,253,0.45)]">
 
   <img src="/SGP-Research-logo.png" className="h-16 w-auto mb-4 object-contain" />
+   <br></br>
+
   <h3 className="text-2xl font-bold text-white mb-4">SGP Research </h3>
 
- <br></br>
 
 <b>
   <p className="mb-5 font-semibold bg-gradient-to-r from-purple-400 via-pink-300 to-red-200 bg-clip-text text-transparent">
@@ -133,95 +181,46 @@ hover:shadow-[0_0_60px_rgba(196,181,253,0.45)]">
   </a>
 </div>
 
-
-          {/* I-PRISM */}
+          
+          {/* SGP Manufacturing */}
           <div className="group relative bg-gradient-to-br from-gray-900 to-black 
-          border border-blue-500/30 rounded-3xl p-10
+          border border-amber-500/30 rounded-3xl p-10
           transition-all duration-500 hover:-translate-y-2
-          hover:shadow-[0_0_60px_rgba(59,130,246,0.35)]">
+          hover:shadow-[0_0_60px_rgba(255,191,36,0.35)]">
 
-            <img src="/IPRISMlogo.png" className="h-20 w-auto mb-4 object-contain" />
+            <img src="/SGP-Manufacturing-logo.png" className="h-16 w-auto mb-4 object-contain" />
 
-            <h3 className="text-2xl font-bold text-white mb-4">I-PRISM</h3>
-              <b><p className="mb-5 font-semibold bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 bg-clip-text text-transparent">“An intelligent precision framework unifying data, biology, and personalized care.”</p></b>
-            <p className="text-gray-300 mb-6">
-            In a world where quality healthcare is often a luxury and modern medicine, while beneficial, can bring a host of side effects and temporary relief, we stand at a crossroads and bringing in institutionalized Poly Scientific Ayurveda.
-            </p>
+           <br></br>
 
-            <a
-              href="https://i-prism.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-sm font-medium
-              text-blue-400 border border-blue-400/50 px-5 py-2 rounded-full
-            opacity-100 transition-all duration-300
+<h3 className="text-2xl font-bold text-white mb-4">SGP Precision Manufacturing</h3>
 
-              hover:bg-blue-400 hover:text-black"
-            >
-              Explore Initiative →
-            </a>
-          </div>
-
-  {/* Novadigm */}
-<div className="group relative bg-gradient-to-br from-gray-900 to-black 
-border border-[#86EFAC]/30 rounded-3xl p-10
-transition-all duration-500 hover:-translate-y-2
-hover:shadow-[0_0_60px_rgba(134,239,172,0.45)]">
-
-  <img src="/Novadigm-logo.png" className="h-16 w-auto mb-4 object-contain" />
-
- <br></br> <h3 className="text-2xl font-bold text-white mb-4">Novadigm</h3>
- <b><p className="mb-5 font-semibold bg-gradient-to-r from-green-400 via-green-300 to-green-200 bg-clip-text text-transparent">“A new scientific paradigm shaping the future of integrated human health.”</p></b>
-  <p className="text-gray-300 mb-6">
- Pioneering healthcare all-natural center dedicated to offering Poly Scientific Ayurveda (PRISM) treatments, redefining healthcare by merging ancient wisdom with modern innovation to cater the chronic diseases.
-  </p>
-<br></br>
-  <a
-    href="https://novadigm.health/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center text-sm font-medium
-    text-[#86EFAC] border border-[#86EFAC]/50 px-5 py-2 rounded-full
-    opacity-100 transition-all duration-300
-    hover:bg-[#86EFAC] hover:text-black"
-  >
-    Explore Initiative →
-  </a>
-</div>
-
-
-          {/* Docture-Poly */}
-          <div className="group relative bg-gradient-to-br from-gray-900 to-black 
-          border border-purple-500/30 rounded-3xl p-10
-          transition-all duration-500 hover:-translate-y-2
-          hover:shadow-[0_0_60px_rgba(168,85,247,0.35)]">
-
-            <img src="/Docture-poly-logo.png" className="h-16 w-auto mb-4 object-contain" />
-
-            <h3 className="text-2xl font-bold text-white mb-4">Docture-Poly</h3>
-             <b>
-  <p className="mb-5 font-semibold bg-gradient-to-r from-purple-400 via-pink-500 to-pink-400 bg-clip-text text-transparent">
-    “A multi-modal clinical device enabling intelligent, poly-system medical intervention.”
+<b>
+  <p className="mb-5 font-semibold bg-gradient-to-r from-yellow-400 via-orange-300 to-red-200 bg-clip-text text-transparent">
+ 
+    “Building the Biological and Digital Infrastructure of Next-Generation Healthcare.”
   </p>
 </b>
 
-            <p className="text-gray-300 mb-6">
-             Docture-Poly is a AI and ML based IoT device that effectively gives your VPK42Fingerprint, and offers personalized, smart, automated, and intelligent dietary, fitness, and herbal regimens; Docture-Poly also provides a non-invasive estimate of your blood biochemistry.
-            </p>
+<p className="text-gray-300 mb-6">
+ SGP Precision Manufacturing serves as the engineering backbone of the SGP / Novadigm ecosystem, enabling the translation of biological intelligence into precise, scalable solutions. Its purpose is to design and manufacture advanced herbal formulations, medical-grade IoT devices, and intelligent robotic systems that support clinically aligned, next-generation healthcare</p>
+
+<br></br>
+
 
             <a
-              href="https://docture-poly.com/"
+              href="https://novadigm.tech/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm font-medium
-              text-purple-400 border border-purple-400/50 px-5 py-2 rounded-full
-             opacity-100 transition-all duration-300
+              text-amber-400 border border-amber-400/50 px-5 py-2 rounded-full
+            opacity-100 transition-all duration-300
 
-              hover:bg-purple-400 hover:text-black"
+              hover:bg-amber-400 hover:text-black"
             >
               Explore Initiative →
             </a>
           </div>
+         
 
         </div>
       </div>

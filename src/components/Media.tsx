@@ -1,4 +1,4 @@
-import { Tv, Newspaper, Radio, Globe } from 'lucide-react';
+import { Tv, Newspaper, Radio } from 'lucide-react';
 
 export default function Media() {
   const mediaLogos = [
@@ -25,28 +25,7 @@ export default function Media() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-6 mb-16">
-          <div className="bg-gradient-to-br from-gray-900 to-black border border-amber-500/30 rounded-2xl p-8 text-center">
-            <Tv size={48} className="text-amber-400 mx-auto mb-4" />
-            <h3 className="text-3xl font-bold text-white mb-2">20+</h3>
-            <p className="text-gray-400">TV Interviews</p>
-          </div>
-          <div className="bg-gradient-to-br from-gray-900 to-black border border-blue-500/30 rounded-2xl p-8 text-center">
-            <Newspaper size={48} className="text-blue-400 mx-auto mb-4" />
-            <h3 className="text-3xl font-bold text-white mb-2">50+</h3>
-            <p className="text-gray-400">Press Features</p>
-          </div>
-          <div className="bg-gradient-to-br from-gray-900 to-black border border-purple-500/30 rounded-2xl p-8 text-center">
-            <Radio size={48} className="text-purple-400 mx-auto mb-4" />
-            <h3 className="text-3xl font-bold text-white mb-2">30+</h3>
-            <p className="text-gray-400">Podcast Episodes</p>
-          </div>
-          <div className="bg-gradient-to-br from-gray-900 to-black border border-green-500/30 rounded-2xl p-8 text-center">
-            <Globe size={48} className="text-green-400 mx-auto mb-4" />
-            <h3 className="text-3xl font-bold text-white mb-2">15+</h3>
-            <p className="text-gray-400">Countries Reached</p>
-          </div>
-        </div>
+       
 
         <div className="bg-gradient-to-br from-gray-900 to-black border border-amber-500/30 rounded-3xl p-12 mb-12">
           <h3 className="font-serif text-3xl font-bold text-white text-center mb-12">
