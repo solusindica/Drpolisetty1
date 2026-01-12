@@ -140,9 +140,10 @@ export default function Experience() {
                     </div>
                   </div>
 
-                  <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full flex items-center justify-center border-4 border-black shadow-xl">
-                    <Icon size={28} className="text-black  translate-x-3 translate-y-3" />
-                  </div>
+               <div className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-full items-center justify-center border-4 border-black shadow-xl">
+  <Icon size={28} className="text-black translate-x-3 translate-y-3" />
+</div>
+
 
                   <div className="lg:w-1/2"></div>
                 </div>
