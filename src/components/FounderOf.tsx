@@ -191,42 +191,6 @@ export default function FounderOf() {
               Explore Initiative →
             </a>
           </div>
-
-
-       {/* SGP Research */}
-<div className="group relative bg-gradient-to-br from-gray-900 to-black 
-border border-[#C4B5FD]/30 rounded-3xl p-10
-transition-all duration-500 hover:-translate-y-2
-hover:shadow-[0_0_60px_rgba(196,181,253,0.45)]">
-
-  <img src="/SGP-Research-logo.png" className="h-16 w-auto mb-4 object-contain" />
-  <h3 className="text-2xl font-bold text-white mb-4">SGP Research </h3>
-
- <br></br>
-
-<b>
-  <p className="mb-5 font-semibold bg-gradient-to-r from-purple-400 via-pink-300 to-red-200 bg-clip-text text-transparent">
-    “Building a healthier India where physical, mental, and social well-being converge through science, tradition, and community action.”
-  </p>
-</b>
-
-<p className="text-gray-300 mb-6">
-  At Novadigm, we are advancing rigorous fundamental and translational research in Ayurveda, addressing social determinants of health, and driving meaningful reforms in public health. Our purpose is to integrate holistic wellness with evidence-based innovation, ensuring every individual has the opportunity for a vibrant and healthy life.
-</p>
-
-<br></br>
-
-
-  <a
-    href="https://novadigmresearch.com/"
-    className="inline-flex items-center text-sm font-medium
-    text-[#C4B5FD] border border-[#C4B5FD]/50 px-5 py-2 rounded-full
-    opacity-100 transition-all duration-300
-    hover:bg-[#C4B5FD] hover:text-black"
-  >
-    Explore Initiative →
-  </a>
-</div>
         </div>
       </div>
     </section>
