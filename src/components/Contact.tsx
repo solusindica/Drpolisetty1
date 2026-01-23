@@ -181,12 +181,28 @@ export default function Contact() {
               </span>
             </p>
 
-            <button
-              onClick={() => navigate("/premiumcard")}
-              className="bg-gradient-to-r from-amber-500 to-yellow-600 text-black px-10 py-4 rounded-full font-semibold hover:shadow-2xl hover:shadow-amber-500/50 transition"
-            >
-              Book VIP Appointment
-            </button>
+            <ul className="mb-8 space-y-5 list-disc list-inside">
+                <li className="text-2xl font-bold text-amber-400">
+                  Private executive assessment
+                  <span className="block text-base font-medium text-white mt-1">
+                    (90–120 min + report)
+                  </span>
+                </li>
+
+                <li className="text-2xl font-bold text-amber-400">
+                  90-day restoration program
+                  <span className="block text-base font-medium text-white mt-1">
+                    (weekly touchpoints)
+                  </span>
+                </li>
+
+                <li className="text-2xl font-bold text-amber-400">
+                  Family office retainer
+                  <span className="block text-base font-medium text-white mt-1">
+                    (priority access, travel coordination)
+                  </span>
+                </li>
+              </ul>
 
             <p className="text-gray-400 text-sm italic mt-4">
               Limited availability • By application only

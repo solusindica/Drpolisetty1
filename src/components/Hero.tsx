@@ -81,10 +81,12 @@ export default function Hero() {
               
 
 
-              <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300">
-                <div className="text-3xl md:text-4xl font-bold text-amber-400">30+</div>
-                <div className="text-gray-300 text-sm font-medium mt-1">Years Research</div>
-              </div>
+              <a href="#experience" className="block">
+                <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300">
+                  <div className="text-3xl md:text-4xl font-bold text-amber-400">30+<span className="text-amber-400 text-sm font-medium mt-1"> years</span> </div> 
+                  <div className="text-gray-300 text-sm font-medium mt-1">Clinical & Research</div>
+                </div>
+              </a>
 
               <div  onClick={() => navigate("/publication")} className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300 cursor-pointer">
                 <div className="text-3xl md:text-4xl font-bold text-amber-400">60+</div>
