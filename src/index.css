@@ -20,6 +20,7 @@
 }
 
 @layer utilities {
+  /* Fade-in animation */
   .animate-fade-in {
     animation: fadeIn 1s ease-in-out;
   }
@@ -33,5 +34,24 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  /* Horizontal scrolling marquee animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  /* Optional: pause on hover */
+  .animate-scroll:hover {
+    animation-play-state: paused;
   }
 }

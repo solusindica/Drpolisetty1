@@ -17,41 +17,65 @@ export default function Hero() {
       className="relative min-h-screen flex flex-col bg-[#020617] text-white overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a1530] to-black opacity-90"></div>
+      {/* TOP SCROLLING BAR */}
+<div className="relative z-30 w-full overflow-hidden bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500">
+  <div className="whitespace-nowrap flex animate-scroll px-4 py-2 text-black font-semibold text-sm md:text-base">
+  {/* Global Recognition & Honors */}
+<span className="mx-8">🏆 Peter Drucker Excellence Award — International Leadership Foundation (UK & India)</span>
+<span className="mx-8">🌍 Honorary Vice-Chair — Europe–India Centre for Business & Industry, Brussels</span>
+<span className="mx-8">🇮🇳 Hind Ratan Award — Government of India</span>
+<span className="mx-8">🚀 PM Atma Nirbhar Bharat Abhiyan Sangatan Award — Hon. Governor of Maharashtra</span>
+<span className="mx-8">⭐ Super Indians Gujarat Award — Chief Minister of Gujarat</span>
+<span className="mx-8">🏅 Nelson Mandela Leadership Award — University of Oxford, UK</span>
+<span className="mx-8">🌏 Pride of India Award (Healthcare) — Goa, India</span>
+<span className="mx-8">🏥 Outstanding Achievement Award — Healthcare Excellence, Bangkok</span>
+<span className="mx-8">🌿 Healthcare Leadership Award — Excellence in Ayurveda, New Delhi</span>
+<span className="mx-8">🌐 Global Indian of the Year & World’s Greatest Brands Award</span>
+<span className="mx-8">📈 Fastest Growing Indian Company Excellence Award — Dubai, UAE</span>
+<span className="mx-8">🚀 Special Award — India Start-Up Festival, Bengaluru</span>
+<span className="mx-8">🩺 Swasthya Award — Global Ayush & Wellness Expo</span>
+<span className="mx-8">🌿 Ayurveda Ratan Award — UK Parliamentary Group on Indian Traditional Sciences</span>
+<span className="mx-8">⚙️ Technology Excellence Award — TITA</span>
+<span className="mx-8">🪔 Dhanvantari Puraskar — National Ayurveda Day, India</span>
+<span className="mx-8">🏥 Best Integrated Medical Hospital Award — Telangana</span>
+<span className="mx-8">📜 Felicitation — Sanskrit Academy, Osmania University</span>
+<span className="mx-8">👨‍⚕️ Vaidya Shiromani Award — National Doctor’s Day</span>
+<span className="mx-8">💡 Medgate India Award — Most Innovative Product</span>
+<span className="mx-8">🇮🇳 Lead India Award — Presented by Dr. A. P. J. Abdul Kalam</span>
 
-     {/* <nav className="relative z-20 flex items-center justify-between px-6 md:px-10 lg:px-16 py-6">
-        <div className="text-2xl md:text-3xl font-serif font-bold text-amber-400">
-          Dr. Polisetty
-        </div>
+{/* Global Professional Memberships */}
+<span className="mx-8">🫀 Pediatric Cardiac Society — Member (2014–Present)</span>
+<span className="mx-8">🇪🇺 European Society of Cardiovascular Surgeons — Member</span>
+<span className="mx-8">🫁 European Association of Cardio-Thoracic Surgeons — Member</span>
+<span className="mx-8">🇺🇸 Heart Failure Society of America — Member</span>
+<span className="mx-8">🇷🇺 Association of Russian Cardiovascular Surgeons — Member</span>
+<span className="mx-8">🧬 Society of Russian Cardiac Surgeons — Member</span>
+<span className="mx-8">🚀 Russian Avia-Cosmic Medicine — Member</span>
+<span className="mx-8">🌿 Vishwa Ayurveda Parishad — Member</span>
+<span className="mx-8">⚡ IEEE — Institute of Electrical & Electronics Engineers — Member</span>
+<span className="mx-8">🍁 Canadian Cardiovascular Surgery — Member</span>
+<span className="mx-8">🇮🇳 Indian Medical Association — Member</span>
 
-        <div className="hidden lg:flex items-center gap-8 text-sm font-medium">
-          <a href="#about" className="hover:text-amber-400 transition-colors">About</a>
-          <a href="#innovation" className="hover:text-amber-400 transition-colors">Innovation</a>
-          <a href="#vision" className="hover:text-amber-400 transition-colors">Vision</a>
-          <a href="#founder" className="hover:text-amber-400 transition-colors">Founder</a>
-          <a href="#thoughts" className="hover:text-amber-400 transition-colors">Thoughts</a>
-          <a href="#experience" className="hover:text-amber-400 transition-colors">Experience</a>
-          <a href="#awards" className="hover:text-amber-400 transition-colors">Awards</a>
-          <a href="#publications" className="hover:text-amber-400 transition-colors">Publications</a>
-          <a href="#contact" className="hover:text-amber-400 transition-colors">Contact</a>
-        </div>
+{/* duplicate for seamless loop */}
+<span className="mx-8">🏆 Peter Drucker Excellence Award — International Leadership Foundation (UK & India)</span>
+<span className="mx-8">🌍 Honorary Vice-Chair — Europe–India Centre for Business & Industry, Brussels</span>
+<span className="mx-8">🇮🇳 Hind Ratan Award — Government of India</span>
+<span className="mx-8">🚀 PM Atma Nirbhar Bharat Abhiyan Sangatan Award — Hon. Governor of Maharashtra</span>
+<span className="mx-8">⭐ Super Indians Gujarat Award — Chief Minister of Gujarat</span>
+<span className="mx-8">🫀 Pediatric Cardiac Society — Member</span>
+<span className="mx-8">⚡ IEEE — Global Technology & Innovation Member</span>
 
-        <button className="hidden lg:block bg-amber-500 text-black px-6 py-2.5 rounded-full font-semibold hover:bg-amber-400 transition-all">
-          Connect
-        </button>
 
-        <button className="lg:hidden text-white">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-      </nav>*/}
+  </div>
+</div>
+
 
       <div className="relative z-10 flex-1 flex items-center px-6 md:px-10 lg:px-16 pb-20">
         <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           <div className="space-y-6">
-            <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-amber-400/10 border border-amber-400/30 backdrop-blur-sm">
-              <Sparkles size={18} className="text-amber-400" />
+           <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-amber-400/10 border border-amber-400/30 backdrop-blur-sm mt-6 md:mt-4">
+             <Sparkles size={18} className="text-amber-400" />
               <span className="text-amber-400 text-sm font-semibold">
                 Where Science Becomes Possibility
               </span>
@@ -80,15 +104,13 @@ export default function Hero() {
               </div>
               
 
-
-              <a href="#experience" className="block">
-                <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300">
-                  <div className="text-3xl md:text-4xl font-bold text-amber-400">30+<span className="text-amber-400 text-sm font-medium mt-1"> years</span> </div> 
-                  <div className="text-gray-300 text-sm font-medium mt-1">Clinical & Research</div>
-                </div>
-              </a>
-
-              <div  onClick={() => navigate("/publication")} className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300 cursor-pointer">
+<a href="#experience" className="block">
+              <div className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300">
+                <div className="text-3xl md:text-4xl font-bold text-amber-400">30+<span className="text-amber-400 text-sm font-medium mt-1"> years</span> </div> 
+                <div className="text-gray-300 text-sm font-medium mt-1">Clinical & Research</div>
+              </div>
+</a>
+             <div  onClick={() => navigate("/publication")} className="bg-gradient-to-br from-amber-500/10 to-amber-600/5 border-2 border-amber-400/40 rounded-2xl px-6 py-4 min-w-[120px] hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-400/20 transition-all duration-300 cursor-pointer">
                 <div className="text-3xl md:text-4xl font-bold text-amber-400">60+</div>
                 <div className="text-gray-300 text-sm font-medium mt-1">Publications</div>
               </div>

@@ -1,4 +1,19 @@
 import { GraduationCap, Briefcase, Building2, Award, Globe } from 'lucide-react';
+import {
+  HeartPulse,
+  Brain,
+  Activity,
+  Sparkles,
+  Bone,
+  Soup,
+  Wind,
+  Droplet,
+  FlaskConical,
+  ShieldPlus,
+  ShieldCheck,
+  Gauge,
+} from "lucide-react";
+
 
 export default function Experience() {
   const timeline = [
@@ -157,6 +172,78 @@ export default function Experience() {
             Clinician → Surgeon → Scientist → Innovator → Institution Builder → Global Thought Leader
           </p>
         </div>
+
+        
+        
+
+        {/* Health Concern Navigation */}
+<div className="mt-24">
+  <div className="text-center mb-12">
+    <h3 className="font-serif text-4xl md:text-5xl font-bold
+      bg-gradient-to-r  from-amber-400 via-yellow-600 to-yellow-600
+      bg-clip-text text-transparent mb-4">
+      Clinical Core Areas
+    </h3>
+  <div className="w-20 h-1 mx-auto bg-gradient-to-r from-amber-600 to-yellow-600" />
+  </div>
+
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+  {[
+    { title: "Cardiology", icon: HeartPulse, link: "https://novadigm.health/" },
+    { title: "Neurology", icon: Brain, link: "https://novadigm.health/" },
+    { title: "Endocrinology", icon: Activity, link: "https://novadigm.health/" },
+    { title: "Dermatology", icon: Sparkles, link: "https://novadigm.health/" },
+    { title: "Gastroenterology", icon: Soup, link: "https://novadigm.health/" },
+    { title: "Orthopedics", icon: Bone, link: "https://novadigm.health/" },
+    { title: "Pulmonology", icon: Wind, link: "https://novadigm.health/" },
+    { title: "Nephrology", icon: Droplet, link: "https://novadigm.health/" },
+    { title: "Hepatology", icon: FlaskConical, link: "https://novadigm.health/" },
+    { title: "Oncology", icon: ShieldPlus, link: "https://novadigm.health/" },
+    { title: "Immunology", icon: ShieldCheck, link: "https://novadigm.health/" },
+    { title: "Diabetology", icon: Gauge, link: "https://novadigm.health/" },
+ ].map((item, index) => (
+  <a
+  key={index}
+  href={item.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group relative block"
+>
+  {/* Glow Effect */}
+  <div
+    className="absolute -inset-4 rounded-3xl transition-all duration-500 group-hover:opacity-100"
+    style={{
+      background: `radial-gradient(circle, rgba(25,181,216,0.45) 0%, transparent 70%)`,
+      filter: "blur(30px)",
+      opacity: 0.4,
+    }}
+  />
+
+  {/* Gradient Border */}
+  <div className="relative rounded-3xl p-[1px] bg-gradient-to-br from-[#19B5D8] to-[#2DD4BF]">
+    {/* Card Body */}
+    <div className="relative rounded-3xl bg-gradient-to-br from-gray-900 to-black p-6 text-center transition-all duration-500 group-hover:-translate-y-2 group-hover:shadow-[0_0_55px_rgba(25,181,216,0.45)]">
+      
+      {/* Icon */} <div className="flex justify-center mb-4"> <item.icon size={40} className="text-yellow-400 opacity-90 transition-transform duration-300 group-hover:scale-110" /> </div>
+
+      {/* Title */}
+      <h4 className="text-white font-semibold text-sm tracking-wide mb-2">
+        {item.title}
+      </h4>
+
+      {/* Accent Line */}
+      <div className="mt-3 h-[2px] w-8 mx-auto rounded-full bg-gradient-to-r from-[#19B5D8] to-[#2DD4BF] transition-all duration-300 group-hover:w-12" />
+    </div>
+  </div>
+</a>
+
+))}
+
+</div>
+
+
+</div>
+
       </div>
     </section>
   );

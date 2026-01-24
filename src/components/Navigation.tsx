@@ -16,6 +16,7 @@ export default function Navigation({ scrolled }: NavigationProps) {
     { name: 'Thoughts', href: '#thoughts' },
     { name: 'Experience', href: '#experience' },
     { name: 'Awards', href: '#awards' },
+    { name: 'Credentials', href: '#credentials'},
     { name: 'Publications', href: '#publications' },
     { name: 'Contact', href: '#contact' },
   ];

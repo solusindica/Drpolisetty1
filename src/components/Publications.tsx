@@ -119,14 +119,14 @@ export default function Publications() {
       <div className="relative flex items-center justify-center">
 
         {/* LEFT ARROW — outside cards */}
-        <button
+      <button
           onClick={goLeft}
-          disabled={currentIndex === 0}
-          className={`absolute -left-10 top-[42%] -translate-y-1/2 z-20
+          disabled={currentIndex === maxIndex}
+          className={`absolute -left-0 top-[40%] -translate-y-1/2 z-20
           w-12 h-12 rounded-full flex items-center justify-center
           transition-all
           ${
-            currentIndex === 0
+            currentIndex === maxIndex
               ? "bg-gray-600 cursor-not-allowed"
               : "bg-amber-500 hover:bg-amber-600"
           }`}
@@ -180,7 +180,7 @@ export default function Publications() {
         <button
           onClick={goRight}
           disabled={currentIndex === maxIndex}
-          className={`absolute -right-10 top-[42%] -translate-y-1/2 z-20
+          className={`absolute -right-0 top-[40%] -translate-y-1/2 z-20
           w-12 h-12 rounded-full flex items-center justify-center
           transition-all
           ${

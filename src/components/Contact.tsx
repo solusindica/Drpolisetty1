@@ -174,13 +174,6 @@ export default function Contact() {
               celebrities, business leaders, and global dignitaries.
             </p>
 
-            <p className="text-3xl font-bold text-amber-300 mb-8">
-              ₹15,00,000{" "}
-              <span className="text-gray-400 text-base font-normal">
-                per Month
-              </span>
-            </p>
-
             <ul className="mb-8 space-y-5 list-disc list-inside">
                 <li className="text-2xl font-bold text-amber-400">
                   Private executive assessment
@@ -203,6 +196,13 @@ export default function Contact() {
                   </span>
                 </li>
               </ul>
+
+              <button
+              onClick={() => navigate("/premiumcard")}
+              className="bg-gradient-to-r from-amber-500 to-yellow-600 text-black px-10 py-4 rounded-full font-semibold hover:shadow-2xl hover:shadow-amber-500/50 transition"
+            >
+              Book VIP Appointment
+            </button>
 
             <p className="text-gray-400 text-sm italic mt-4">
               Limited availability • By application only

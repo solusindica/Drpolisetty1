@@ -4,13 +4,14 @@ export default function Media() {
 const mediaLogos = [
   { name: 'NOVO', url: 'https://novo.press/panacea-nova-to-reveal-revolutionary-consumer-medical-wearable-at-the-taves-consumer-electronics-show/' },
   { name: 'BUSINESS STANDARD', url: 'https://www.business-standard.com/content/press-releases-ani/sai-ganga-panakeia-s-innovative-path-to-redefining-healthcare-garners-great-recognition-during-the-india-startup-festival-2024-123081100527_1.html' },
+  { name: 'CioTimes', url: 'https://theciotimes.com/magazine/The-Most-Admired-Business-Leaders-in-2023-V2/#page=1' },
+  { name: 'Way2World', url: 'https://www.way2world.in/saigangapanakeia' },
   { name: 'Telangana Today', url: 'https://telanganatoday.com/international-conference-on-poly-scientific-ayurveda-at-iit-hyderabad-on-jan-21' },
   { name: 'Audience Report', url: 'https://audiencereports.in/dr-ravi-shankar-polisetty-revolutionizing/' },
   { name: 'THE WEEK', url: 'https://www.theweek.in/wire-updates/business/2023/08/11/dcm32-dr.-ravishankar-polisetty.html' },
   { name: 'Sangam', url: 'https://sangamtalks.org/dr-ravishankar-polisetty/' },
-  { name: 'Tirumala', url: 'https://news.tirumala.org/tridosha-siddhanta-root-of-ayurveda-dr-polishetty-ravishankar/' },
-  { name: 'Way2World', url: 'https://www.way2world.in/saigangapanakeia' },
 ];
+
   return (
     <section id="media" className="relative py-32 bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,23 +32,24 @@ const mediaLogos = [
             Featured In
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              {mediaLogos.map((media, index) => (
-                <a
-                  key={index}
-                  href={media.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group"
-                >
-                  <div className="bg-white/5 border border-amber-500/20 rounded-xl p-6 flex items-center justify-center 
-                                  hover:border-amber-500/50 hover:bg-white/10 transition-all duration-300">
-                    <p className="text-gray-300 font-semibold text-center group-hover:text-amber-400">
-                      {media.name}
-                    </p>
-                  </div>
-                </a>
-              ))}
-            </div>
+  {mediaLogos.map((media, index) => (
+    <a
+      key={index}
+      href={media.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group"
+    >
+      <div className="bg-white/5 border border-amber-500/20 rounded-xl p-6 flex items-center justify-center 
+                      hover:border-amber-500/50 hover:bg-white/10 transition-all duration-300">
+        <p className="text-gray-300 font-semibold text-center group-hover:text-amber-400">
+          {media.name}
+        </p>
+      </div>
+    </a>
+  ))}
+</div>
+
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -106,7 +108,7 @@ const mediaLogos = [
                   </div>
                   <div>
                     <p className="text-white font-semibold mb-1">TV5 - Health Care</p>
-                    <p className="text-gray-400 text-sm">, Dr. Ravi Shankar Polisetty from SGP Hospitals gives clear, expert suggestions on how this approach supports better patient outcomes and the future of healthcare.</p>
+                    <p className="text-gray-400 text-sm">Dr. Ravi Shankar Polisetty from SGP Hospitals gives clear, expert suggestions on how this approach supports better patient outcomes and the future of healthcare.</p>
                   </div>
                 </div>
               </div>
