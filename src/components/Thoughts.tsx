@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Heart, Sparkles, Users, Quote } from 'lucide-react';
+import { Heart, Sparkles, Users, Quote, Stethoscope } from 'lucide-react';
 
 const Thoughts = () => {
   const [activeCategory, setActiveCategory] = useState('society');
@@ -8,6 +8,7 @@ const Thoughts = () => {
     { id: 'society', label: 'For Society', icon: Heart, color: 'from-[#19B5D8] to-[#2DD4BF]' },
     { id: 'youth', label: 'For Youth', icon: Sparkles, color: 'from-[#19B5D8] to-[#3B82F6]' },
     { id: 'leadership', label: 'Leadership & Faculty', icon: Users, color: 'from-[#6366F1] to-[#8B5CF6]' },
+    { id: 'healthcare', label: 'Healthcare',  icon: Stethoscope, color: 'from-[#22C55E] to-[#10B981]'}
   ];
 
   /* 🔥 CARD COLOR THEMES (border + glow + accents) */
@@ -33,6 +34,14 @@ const Thoughts = () => {
       icon: 'text-[#8B5CF6]',
       divider: 'from-[#6366F1] to-[#8B5CF6]',
     },
+    healthcare: {
+  border: 'border-[#22C55E]/40',
+  hoverBorder: 'hover:border-[#22C55E]',
+  glow: 'hover:shadow-[0_0_55px_rgba(34,197,94,0.45)]',
+  icon: 'text-[#22C55E]',
+  divider: 'from-[#22C55E] to-[#10B981]',
+   },
+
   };
 
   const thoughts = {
@@ -162,6 +171,50 @@ const Thoughts = () => {
     context: "On Humility and Growth"
   }
     ],
+    healthcare: [
+  {
+    quote: "Healthcare must anticipate disease, not merely respond to crisis.",
+    context: "Predictive Healthcare",
+  },
+  {
+    quote: "Personalized medicine works only when intelligence replaces generalization.",
+    context: "Intelligent Personalization",
+  },
+  {
+    quote: "End-stage care should focus on restoration, dignity, and regeneration.",
+    context: "Restorative Care",
+  },
+  {
+    quote: "Fragmented specialties fail where integrated biological systems succeed.",
+    context: "Integrative Health Systems",
+  },
+  {
+    quote: "AI should enhance human judgment in medicine, not replace it.",
+    context: "Human-Centered AI",
+  },
+  {
+    quote: "Continuous biosignals will define the future of diagnosis.",
+    context: "Real-Time Diagnostics",
+  },
+  {
+    quote: "Evidence-based science and ancient wisdom can coexist in global health.",
+    context: "Wisdom and Evidence",
+  },
+  {
+    quote: "Healthcare equity begins when advanced care is no longer exclusive.",
+    context: "Accessible Healthcare",
+  },
+  {
+    quote: "Medical education must teach systems health, not isolated disease.",
+    context: "Health Education Reform",
+  },
+  {
+    quote: "True healthcare measures human well-being, not just clinical metrics.",
+    context: "Whole-Human Health",
+  },
+],
+
+
   };
 
   const theme = cardTheme[activeCategory as keyof typeof cardTheme];
